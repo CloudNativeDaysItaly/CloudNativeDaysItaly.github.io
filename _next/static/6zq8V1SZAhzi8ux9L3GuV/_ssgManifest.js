@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fagenda\u002F[sessionId]","\u002Fspeakers\u002F[speakerId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
