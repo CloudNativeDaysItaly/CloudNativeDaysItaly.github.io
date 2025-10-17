@@ -20,9 +20,12 @@ async function getEventData(year) {
             }
         };
 
-        const [speakers, team, talks] = await Promise.all([
+        const [speakers, coreTeam, team, talks] = await Promise.all([
             Promise.all(
                 (editionConfig.speakers || []).map(id => readMarkdownFile(path.join(process.cwd(), 'src', 'config', 'profiles', `${id}.md`)))
+            ),
+            Promise.all(
+                (editionConfig.coreTeam || []).map(id => readMarkdownFile(path.join(process.cwd(), 'src', 'config', 'profiles', `${id}.md`)))
             ),
             Promise.all(
                 (editionConfig.team || []).map(id => readMarkdownFile(path.join(process.cwd(), 'src', 'config', 'profiles', `${id}.md`)))
@@ -41,8 +44,10 @@ async function getEventData(year) {
         ]);
 
         const validSpeakers = speakers.filter(Boolean);
-        const validTeam = team.filter(Boolean);
+        const validTeam = team.filter(Boolean).map(m => ({...m, level: 'organizer' }));
+        const validCoreTeam = coreTeam.filter(Boolean).map(m => ({...m, level: 'core' }));
         const validTalks = talks.filter(Boolean);
+
 
         const hydratedSponsors = {};
         const sponsorsByIds = editionConfig.sponsors || {};
@@ -62,7 +67,7 @@ async function getEventData(year) {
         return {
             ...editionConfig,
             speakers: validSpeakers,
-            team: validTeam,
+            team: [...validTeam, ...validCoreTeam],
             sponsors: hydratedSponsors,
             talks: hydratedTalks,
             editionData: editionConfig

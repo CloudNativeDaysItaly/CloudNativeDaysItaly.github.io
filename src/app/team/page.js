@@ -15,15 +15,20 @@ async function getTeamData() {
         const editionConfigPath = path.join(process.cwd(), 'src', 'config', 'editions', `${currentYear}.json`);
         const editionConfig = JSON.parse(await fs.readFile(editionConfigPath, 'utf8'));
 
-        const teamIds = editionConfig.team || [];
+        const orgIds = editionConfig.team || [];
+        const coreIds = editionConfig.coreTeam || [];
 
+        const teamIds = [...orgIds, ...coreIds];
+
+        console.log(teamIds);
         const teamMembers = await Promise.all(
             teamIds.map(async (memberId) => {
                 const profilePath = path.join(process.cwd(), 'src', 'config', 'profiles', `${memberId}.md`);
                 try {
                     const fileContents = await fs.readFile(profilePath, 'utf8');
                     const { data, content } = matter(fileContents);
-                    return { ...data, bio: content || data.bio };
+                    const memberLevel = coreIds.includes(memberId) ? 'core' : 'organizer';
+                    return { ...data, level: memberLevel, bio: content || data.bio };
                 } catch (error) {
                     console.error(`Error reading profile for team member: ${memberId}`, error);
                     return null;

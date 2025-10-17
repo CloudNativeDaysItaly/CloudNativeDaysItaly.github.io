@@ -8,7 +8,7 @@
     "attendees": 210
   },
   "speakers": [],
-  "team": [
+  "coreTeam": [
     "michel-murabito",
     "paolo-mainardi",
     "evangelista-tragni",
@@ -18,9 +18,12 @@
     "dario-tranchitella",
     "alessandro-de-vecchi",
     "maria-pina-di-cataldo",
+    "giuseppe-vincenzo-abbaticchio"
+  ],
+  "team": [
     "matteo-bisi",
-    "giuseppe-vincenzo-abbaticchio",
-    "amedeo-palopoli"
+    "amedeo-palopoli",
+    "vladi-stevanovic"
   ],
   "sponsors": {
     "silver": [],
