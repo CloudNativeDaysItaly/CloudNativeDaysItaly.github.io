@@ -114,9 +114,9 @@
     }
   },
   "proposal": {
-    "startDate": "2025-10-31T00:00:00",
+    "startDate": "2025-11-03T00:00:00",
     "endDate": "2026-04-10T23:59:59",
-    "url": "https://sessionize.com/cndi-2026",
+    "url": "https://sessionize.com/cloud-native-days-italy-2026",
     "rollingSelectionText": "We evaluate proposals as they are submitted. Submitting early increases your chances of being selected as one of our first speakers!"
   },
   "tickets": {
@@ -128,15 +128,15 @@
         "name": "Blind Bird",
         "price": "90€ (ex. VAT @22%)",
         "description": "Two day conference ticket. The very first tickets for a limited time.",
-        "salesStartDate": "2025-10-31T09:00:00",
-        "salesEndDate": "2025-10-25T23:59:59"
+        "salesStartDate": "2025-11-30T09:00:00",
+        "salesEndDate": "2026-01-02T23:59:59"
       },
       {
         "id": "conference-early-bird",
         "name": "Conference – Early Bird",
         "price": "110€ (ex. VAT @22%)",
         "description": "Two day conference ticket. Get your ticket at a discounted price.",
-        "salesStartDate": "2025-10-26T00:00:00",
+        "salesStartDate": "2026-01-03T00:00:00",
         "salesEndDate": "2026-01-31T23:59:59"
       },
       {
