@@ -77,6 +77,7 @@ const TalkTimelineCard = ({ talk }) => {
 
 export default function ProfileDetail({ profile }) {
     const roleColors = {
+        'Core Organizer': 'bg-red-600 text-white',
         'Organizer': 'bg-blue-100 text-blue-800',
         'Speaker': 'bg-green-100 text-green-800',
     };
