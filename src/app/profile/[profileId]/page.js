@@ -45,6 +45,10 @@ async function getProfileHistory(profileId) {
             yearData.roles.add('Organizer');
         }
 
+        if (editionConfig.coreTeam?.includes(profileId)) {
+            yearData.roles.add('Core Organizer');
+        }
+
         const talksDir = path.join(process.cwd(), 'src', 'config', 'talks', year);
         try {
             const talkFiles = await fs.readdir(talksDir);
