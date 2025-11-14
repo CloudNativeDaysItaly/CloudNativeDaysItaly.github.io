@@ -21,6 +21,7 @@
     "links": {
       "header": [
         { "text": "Home", "to": "/" },
+        { "text": "c4p", "to": "https://sessionize.com/cloud-native-days-italy-2026", "target": "_blank" },
         { "text": "Agenda", "to": "/agenda" },
         { "text": "Speakers", "to": "/speakers" },
         { "text": "Sponsors", "to": "/sponsors" },

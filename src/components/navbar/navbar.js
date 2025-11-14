@@ -58,7 +58,7 @@ export default function Navbar({ data, editions = [] }) {
 
                         <nav className="hidden lg:flex items-center gap-8">
                             {navLinks.map((link) => (
-                                <Link key={link.to} href={link.to} className="text-gray-800 hover:text-blue-600 transition-colors font-semibold">
+                                <Link key={link.to} href={link.to} target={link.target ? link.target : "_self"} className="text-gray-800 hover:text-blue-600 transition-colors font-semibold">
                                     {link.text}
                                 </Link>
                             ))}
@@ -129,7 +129,7 @@ export default function Navbar({ data, editions = [] }) {
                     </div>
                     <div className="mt-8 flex-1 flex flex-col gap-6">
                         {navLinks.map((link) => (
-                            <Link key={link.to} href={link.to} onClick={closeAllMenus} className="text-xl font-semibold text-gray-800 hover:text-blue-600">
+                            <Link key={link.to} href={link.to} target={link.target ? link.target : "_blank"} onClick={closeAllMenus} className="text-xl font-semibold text-gray-800 hover:text-blue-600">
                                 {link.text}
                             </Link>
                         ))}

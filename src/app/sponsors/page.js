@@ -94,7 +94,12 @@ export default async function SponsorsPage() {
                         {config.sponsors.active.description}
                     </p>
                     <div className="mt-8">
-                        <Link href="/sponsors#become-a-sponsor" className="group inline-flex items-center justify-center text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
+                        <Link
+                            href={config.sponsors.prospectus.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group inline-flex items-center justify-center text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
+                        >
                             Become a Sponsor <ArrowRight className="h-5 w-5 ml-2 transition-transform group-hover:translate-x-1" />
                         </Link>
                     </div>
