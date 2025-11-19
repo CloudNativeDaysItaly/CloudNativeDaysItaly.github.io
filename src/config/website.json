@@ -117,7 +117,7 @@
   },
   "proposal": {
     "startDate": "2025-11-03T00:00:00",
-    "endDate": "2026-04-10T23:59:59",
+    "endDate": "2026-03-06T23:59:59",
     "url": "https://sessionize.com/cloud-native-days-italy-2026",
     "rollingSelectionText": "We evaluate proposals as they are submitted. Submitting early increases your chances of being selected as one of our first speakers!"
   },
@@ -130,7 +130,7 @@
         "name": "Blind Bird",
         "price": "90€ (ex. VAT @22%)",
         "description": "Two day conference ticket. The very first tickets for a limited time.",
-        "salesStartDate": "2025-11-30T09:00:00",
+        "salesStartDate": "2025-12-30T09:00:00",
         "salesEndDate": "2026-01-02T23:59:59"
       },
       {
