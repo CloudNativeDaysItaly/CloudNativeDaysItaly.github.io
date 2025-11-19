@@ -52,6 +52,12 @@ const Hero = ({ data }) => {
             <div className="container mx-auto px-4 py-16 lg:py-24 relative z-10">
                 <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
                     <div className="text-center lg:text-left">
+                        <h1 className="font-extrabold tracking-tighter text-[clamp(2.25rem,1.5rem+3vw,2.75rem)] leading-[1.1]">
+                            {data.title}
+                        </h1>
+                        <h2 className="text-2xl sm:text-3xl font-bold text-blue-400 mt-4 mb-2 tracking-tight">
+                            {data.badgeDate} - {data.city}
+                        </h2>
                         {isCountdownActive && timeLeft ? (
                             <div className="mb-8 p-6 bg-white/5 border border-white/10 rounded-2xl backdrop-blur-sm">
                                 <h2 className="text-sm font-semibold text-blue-300 uppercase tracking-widest mb-4">The Next Edition Starts In</h2>
@@ -69,9 +75,6 @@ const Hero = ({ data }) => {
                                 </span>
                             )
                         )}
-                        <h1 className="font-extrabold tracking-tighter text-[clamp(2.25rem,1.5rem+3vw,2.75rem)] leading-[1.1]">
-                            {data.title}
-                        </h1>
                         <p className="mt-6 text-white/80 max-w-xl mx-auto lg:mx-0 text-[clamp(1rem,0.9rem+0.5vw,1.125rem)] leading-relaxed">
                             {data.description}
                         </p>

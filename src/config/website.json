@@ -79,10 +79,11 @@
   },
   "hero": {
     "countDown": "2026-05-18T09:00:00",
-    "badgeDate": "🗓️ 18 & 19 May 2026",
+    "badgeDate": "18 & 19 May 2026",
+    "city": "Bologna, Italy",
     "title": "Cloud Native Days Italy 2026",
     "image": "/images/cndteam-2025.webp",
-    "description": "The 18 and 19 May 2026, the Italian cloud native community will come together in Bologna for two unforgettable days of sharing, learning and connection. Be part of it!",
+    "description": "The Italian Cloud Native community will come together for two unforgettable days of sharing, learning and connection. Be part of it!",
     "CTA": {
       "tickets": { "label": "Get your Ticket", "url": "/#tickets" },
       "sponsor": { "label": "Become a Sponsor", "url": "/sponsors" }
