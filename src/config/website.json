@@ -35,7 +35,7 @@
     }
   },
   "footer": {
-    "image": "/images/logo_xs.webp",
+    "image": "/images/logo_CND_W.svg",
     "links": [
       { "label": "Code of Conduct", "url": "/code-of-conduct", "active": true },
       { "label": "Team", "url": "/team", "active": true },
@@ -43,6 +43,12 @@
       { "label": "Speakers", "url": "/speakers", "active": true }
     ],
     "icons": [
+      {
+        "iconName": "telegram",
+        "url": "https://t.me/cloudnativedaysitaly",
+        "alt": "Cloud Native Days Italy on Telegram",
+        "active": true
+      },
       {
         "iconName": "linkedin",
         "url": "https://www.linkedin.com/company/cloudnativedaysitaly",
