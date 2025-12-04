@@ -21,7 +21,11 @@
     "links": {
       "header": [
         { "text": "Home", "to": "/" },
-        { "text": "c4p", "to": "https://sessionize.com/cloud-native-days-italy-2026", "target": "_blank" },
+        {
+          "text": "c4p",
+          "to": "https://sessionize.com/cloud-native-days-italy-2026",
+          "target": "_blank"
+        },
         { "text": "Agenda", "to": "/agenda" },
         { "text": "Speakers", "to": "/speakers" },
         { "text": "Sponsors", "to": "/sponsors" },
@@ -166,12 +170,36 @@
       "label": "Download Sponsorship Prospectus"
     },
     "tiers": {
-      "main": { "title": "MAIN SPONSORS", "class": "bg-white shadow-sm", "badgeClass": "bg-indigo-50 text-indigo-500" },
-      "platinum": { "title": "Platinum", "class": "bg-white shadow-sm", "badgeClass": "bg-platinum-50 text-platinum-500" },
-      "gold": { "title": "Gold", "class": "bg-white shadow-sm", "badgeClass": "bg-yellow-50 text-yellow-500" },
-      "silver": { "title": "Silver", "class": "bg-white shadow-sm", "badgeClass": "bg-gray-50 text-gray-500" },
-      "bronze": { "title": "Bronze", "class": "bg-white shadow-sm", "badgeClass": "bg-orange-50 text-orange-500" },
-      "partner": { "title": "Community & Media Partners", "class": "bg-white shadow-sm", "badgeClass": "bg-blue-50 text-blue-500" }
+      "main": {
+        "title": "MAIN SPONSORS",
+        "class": "bg-white shadow-sm",
+        "badgeClass": "bg-indigo-50 text-indigo-500"
+      },
+      "platinum": {
+        "title": "Platinum",
+        "class": "bg-white shadow-sm",
+        "badgeClass": "bg-platinum-50 text-platinum-500"
+      },
+      "gold": {
+        "title": "Gold",
+        "class": "bg-white shadow-sm",
+        "badgeClass": "bg-yellow-50 text-yellow-500"
+      },
+      "silver": {
+        "title": "Silver",
+        "class": "bg-white shadow-sm",
+        "badgeClass": "bg-gray-50 text-gray-500"
+      },
+      "bronze": {
+        "title": "Bronze",
+        "class": "bg-white shadow-sm",
+        "badgeClass": "bg-orange-50 text-orange-500"
+      },
+      "partner": {
+        "title": "Community & Media Partners",
+        "class": "bg-white shadow-sm",
+        "badgeClass": "bg-blue-50 text-blue-500"
+      }
     }
   }
 }
