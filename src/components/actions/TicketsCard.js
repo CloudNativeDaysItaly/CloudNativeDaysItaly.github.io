@@ -73,7 +73,11 @@ export default function TicketsCard({ data }) {
                     <h3 className="text-2xl font-bold text-gray-900">Tickets Coming Soon!</h3>
                     <p className="text-gray-600 mt-2">{data.comingSoonText}</p>
                     <div className="mt-auto pt-6">
-                        <div className="w-full text-center bg-gray-300 text-gray-600 font-semibold px-6 py-3 rounded-lg cursor-not-allowed">Get Notified</div>
+                        <Link href={"https://t.me/cloudnativedaysitaly"} target={"_blank"}>
+                            <div className="group w-full inline-flex items-center justify-center text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
+                                Get Notified  <ArrowRight className="h-5 w-5 ml-2 transition-transform group-hover:translate-x-1" />
+                            </div>
+                        </Link>
                     </div>
                 </>
             );
