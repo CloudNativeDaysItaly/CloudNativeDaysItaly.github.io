@@ -8,7 +8,7 @@ tags:
   - ITA
 level: Intermediate
 image: '/images/talks/mlops-con-github-actions-training-testing-e-deploy-di-un-modello-di-machine-learning.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=dcde94vuZZs'
 slide: ''
 ---
 

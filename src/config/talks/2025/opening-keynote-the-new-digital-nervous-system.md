@@ -8,7 +8,7 @@ tags:
   - ENG
 level: all
 image: '/images/talks/opening-keynote-the-new-digital-nervous-system.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=uZAM9l8reNA'
 slide: ''
 ---
 

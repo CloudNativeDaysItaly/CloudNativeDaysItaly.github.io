@@ -8,7 +8,7 @@ tags:
   - SPONSORED
 level: Intermediate
 image: "/images/talks/accelerate-cloud-native-development-with-orchestrated-ai.webp"
-video: ''
+video: 'https://www.youtube.com/watch?v=uzRWkLRSGIU'
 slide: ''
 ---
 

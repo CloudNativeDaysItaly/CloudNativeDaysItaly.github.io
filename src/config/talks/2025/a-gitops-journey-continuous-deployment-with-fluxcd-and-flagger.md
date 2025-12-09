@@ -8,7 +8,7 @@ tags:
   - ITA
 level: Intermediate
 image: '/images/talks/a-gitops-journey-continuous-deployment-with-fluxcd-and-flagger.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=JqjkUg7TyTQ'
 slide: ''
 ---
 

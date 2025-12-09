@@ -8,7 +8,7 @@ tags:
   - ITA
 level: all
 image: '/images/talks/bridging-the-gaps-communication-strategies-for-kubernetes-releases.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=otnO5YKHj4I'
 slide: ''
 ---
 

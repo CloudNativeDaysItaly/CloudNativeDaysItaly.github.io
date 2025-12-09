@@ -8,7 +8,7 @@ tags:
   - ENG
 level: Intermediate
 image: '/images/talks/bringing-cloud-native-agility-to-bare-metal-kubernetes-with-cluster-api-and-metal.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=UvTHZr6oFx4'
 slide: ''
 ---
 

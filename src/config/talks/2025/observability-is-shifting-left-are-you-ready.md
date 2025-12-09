@@ -8,7 +8,7 @@ tags:
   - ENG
 level: all
 image: '/images/talks/observability-is-shifting-left-are-you-ready.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=082lobqjd6I'
 slide: ''
 ---
 
