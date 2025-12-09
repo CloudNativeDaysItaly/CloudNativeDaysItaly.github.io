@@ -13,7 +13,7 @@
     }
   },
   "navbar": {
-    "logo": "/images/Logo_xs.webp",
+    "logo": "/images/logo_xs.webp",
     "CTA": {
       "label": "Get your Ticket",
       "url": "/#tickets"
