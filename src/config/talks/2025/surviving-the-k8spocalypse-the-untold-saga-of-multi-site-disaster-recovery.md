@@ -8,7 +8,7 @@ tags:
   - ENG
 level: Advanced
 image: '/images/talks/surviving-the-k8spocalypse-the-untold-saga-of-multi-site-disaster-recovery.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=CdagrxG87yM'
 slide: ''
 ---
 

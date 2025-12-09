@@ -8,7 +8,7 @@ tags:
   - ITA
 level: Intermediate
 image: '/images/talks/cluster-api-and-proxmox-the-odd-couple-for-your-kubernetes-on-prem.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=T8-X4RwC7wQ'
 slide: ''
 ---
 

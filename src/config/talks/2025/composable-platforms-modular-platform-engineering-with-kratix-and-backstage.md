@@ -9,7 +9,7 @@ tags:
   - ENG
 level: Intermediate
 image: '/images/talks/composable-platforms-modular-platform-engineering-with-kratix-and-backstage.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=o38AjGSlv8I'
 slide: ''
 ---
 

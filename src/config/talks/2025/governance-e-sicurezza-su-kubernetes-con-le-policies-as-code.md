@@ -8,7 +8,7 @@ tags:
   - ITA
 level: Intermediate
 image: '/images/talks/governance-e-sicurezza-su-kubernetes-con-le-policies-as-code.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=dK7ELl9CM5Q'
 slide: ''
 ---
 

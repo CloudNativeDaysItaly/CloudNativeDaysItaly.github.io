@@ -8,7 +8,7 @@ tags:
   - ENG
 level: Intermediate
 image: '/images/talks/the-past-present-and-future-of-postgres-in-kubernetes.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=8_hybMtOWtk'
 slide: ''
 ---
 

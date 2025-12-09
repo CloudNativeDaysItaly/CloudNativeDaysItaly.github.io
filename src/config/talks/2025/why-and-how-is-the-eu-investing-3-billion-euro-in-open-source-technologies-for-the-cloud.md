@@ -7,7 +7,7 @@ speakerIds:
 tags: []
 level: ''
 image: '/images/talks/why-and-how-is-the-eu-investing-3-billion-euro-in-open-source-technologies-for-the-cloud.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=lYfsCoWW1w8'
 slide: ''
 ---
 

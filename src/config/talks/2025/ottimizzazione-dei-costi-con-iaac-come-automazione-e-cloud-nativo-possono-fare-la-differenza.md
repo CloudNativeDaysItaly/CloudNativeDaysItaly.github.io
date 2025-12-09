@@ -8,7 +8,7 @@ tags:
   - SPONSORED
 level: Intermediate
 image: '/images/talks/ottimizzazione-dei-costi-con-iaac-come-automazione-e-cloud-nativo-possono-fare-la-differenza.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=1zlDbWiry0o'
 slide: ''
 ---
 

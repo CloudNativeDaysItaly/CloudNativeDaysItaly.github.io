@@ -8,7 +8,7 @@ tags:
   - ENG
 level: Intermediate
 image: '/images/talks/how-to-use-kubernetes-to-control-a-vast-network-of-clusters.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=EkioGUDzqbc'
 slide: ''
 ---
 

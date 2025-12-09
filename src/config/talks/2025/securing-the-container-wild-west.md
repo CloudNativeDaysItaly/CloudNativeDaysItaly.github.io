@@ -8,7 +8,7 @@ tags:
   - ITA
 level: Intermediate
 image: '/images/talks/securing-the-container-wild-west.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=z8y204exp0c'
 slide: ''
 ---
 

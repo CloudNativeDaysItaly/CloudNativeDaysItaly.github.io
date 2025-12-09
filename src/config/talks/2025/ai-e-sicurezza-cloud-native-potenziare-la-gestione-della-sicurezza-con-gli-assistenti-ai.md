@@ -9,7 +9,7 @@ tags:
   - ITA
 level: all
 image: '/images/talks/ai-e-sicurezza-cloud-native-potenziare-la-gestione-della-sicurezza-con-gli-assistenti-ai.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=dpa3BNkvOjc'
 slide: ''
 ---
 

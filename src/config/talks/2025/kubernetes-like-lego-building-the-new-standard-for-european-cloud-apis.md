@@ -9,7 +9,7 @@ tags:
   - SPONSORED
 level: Intermediate
 image: '/images/talks/kubernetes-like-lego-building-the-new-standard-for-european-cloud-apis.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=Xy97F4wHFZw'
 slide: ''
 ---
 

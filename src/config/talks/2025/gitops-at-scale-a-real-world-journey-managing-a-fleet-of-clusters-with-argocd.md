@@ -9,7 +9,7 @@ tags:
   - ITA
 level: Intermediate
 image: '/images/talks/gitops-at-scale-a-real-world-journey-managing-a-fleet-of-clusters-with-argocd.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=rPg8GQsPYag'
 slide: ''
 ---
 

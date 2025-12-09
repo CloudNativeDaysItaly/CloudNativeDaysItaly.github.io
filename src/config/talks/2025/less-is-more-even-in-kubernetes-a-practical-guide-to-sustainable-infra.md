@@ -8,7 +8,7 @@ tags:
   - ENG
 level: all
 image: '/images/talks/less-is-more-even-in-kubernetes-a-practical-guide-to-sustainable-infra.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=d6EHbkVb1hA'
 slide: ''
 ---
 

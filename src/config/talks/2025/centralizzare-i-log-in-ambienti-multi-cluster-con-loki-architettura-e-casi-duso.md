@@ -8,7 +8,7 @@ tags:
   - ITA
 level: Intermediate
 image: "/images/talks/centralizzare-i-log-in-ambienti-multi-cluster-con-loki-architettura-e-casi-duso.webp"
-video: ''
+video: 'https://www.youtube.com/watch?v=h3eVQjssZmA'
 slide: ''
 ---
 

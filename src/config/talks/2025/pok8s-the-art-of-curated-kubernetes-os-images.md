@@ -8,7 +8,7 @@ tags:
   - ENG
 level: Beginners
 image: '/images/talks/pok8s-the-art-of-curated-kubernetes-os-images.webp'
-video: ''
+video: 'https://www.youtube.com/watch?v=MFKnS6fnTkk'
 slide: ''
 ---
 
