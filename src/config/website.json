@@ -13,7 +13,7 @@
     }
   },
   "navbar": {
-    "logo": "/images/logo_xs.webp",
+    "logo": "/images/Logo_xs.webp",
     "CTA": {
       "label": "Get your Ticket",
       "url": "/#tickets"
@@ -133,7 +133,7 @@
   },
   "tickets": {
     "link": "https://ti.to/apropos/cndi-2026",
-    "comingSoonText": "Tickets will be available soon. Follow our social media for announcements!",
+    "comingSoonText": "Follow our social media or join our Telegram community for discounts and updates!",
     "type": [
       {
         "id": "blind-bird",
