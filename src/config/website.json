@@ -35,7 +35,7 @@
     }
   },
   "footer": {
-    "image": "/images/logo_CND_W.svg",
+    "image": "/images/Logo_CND_W.svg",
     "links": [
       { "label": "Code of Conduct", "url": "/code-of-conduct", "active": true },
       { "label": "Team", "url": "/team", "active": true },

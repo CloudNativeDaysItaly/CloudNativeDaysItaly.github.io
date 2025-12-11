@@ -9,7 +9,7 @@ speakerIds:
 tags:
   - ENG
 level: Beginners
-image: null
+image: '/images/workshop/scalable-k8s-with-hosted-control-planes-and-immutable-nodes.webp'
 video: ''
 slide: ''
 ---

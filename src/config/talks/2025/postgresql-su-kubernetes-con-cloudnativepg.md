@@ -8,7 +8,7 @@ speakerIds:
 tags:
   - ITA
 level: Intermediate
-image: null
+image: '/images/workshop/postgresql-su-k8s-con-cloudnativepg.webp'
 video: ''
 slide: ''
 ---
