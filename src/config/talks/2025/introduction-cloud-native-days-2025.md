@@ -10,7 +10,7 @@ speakerIds:
 tags:
   - ENG
 level: all
-image: null
+image: '/images/talks/intro-cnd-2025.webp'
 video: ''
 slide: ''
 ---
