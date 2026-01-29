@@ -3,7 +3,7 @@
     "edition": "2026",
     "event": {
       "name": "Cloud Native Days Italy",
-      "year": 2025,
+      "year": 2026,
       "website": "https://cloudnativedaysitaly.org",
       "logo": "https://cloudnativedaysitaly.org/images/logo_xs.webp",
       "description": "Cloud Native Days (CND) Italy is a local, community-organized event that gathers adopters and technologists from open source and cloud native communities."
@@ -132,32 +132,32 @@
     "rollingSelectionText": "We evaluate proposals as they are submitted. Submitting early increases your chances of being selected as one of our first speakers!"
   },
   "tickets": {
-    "link": "https://ti.to/apropos/cndi-2026",
+    "link": "https://ti.to/apropos/cloud-native-days-italy-2026",
     "comingSoonText": "Follow our social media or join our Telegram community for discounts and updates!",
     "type": [
       {
-        "id": "blind-bird",
-        "name": "Blind Bird",
-        "price": "90€ (ex. VAT @22%)",
-        "description": "Two day conference ticket. The very first tickets for a limited time.",
-        "salesStartDate": "2026-01-30T09:00:00",
-        "salesEndDate": "2026-01-02T23:59:59"
+        "id": "conference-very-early-birds",
+        "name": "Very Early Birds",
+        "price": "85€ (ex. VAT @22%)",
+        "description": "2-day Conference access (lunches included), Workshops (subject to availability), and Community Area access.",
+        "salesStartDate": "2026-01-29T09:00:00",
+        "salesEndDate": "2026-02-09T23:59:59"
       },
       {
         "id": "conference-early-bird",
         "name": "Conference – Early Bird",
-        "price": "110€ (ex. VAT @22%)",
-        "description": "Two day conference ticket. Get your ticket at a discounted price.",
-        "salesStartDate": "2026-01-30T00:00:00",
-        "salesEndDate": "2026-01-31T23:59:59"
+        "price": "100€ (ex. VAT @22%)",
+        "description": "2-day Conference access (lunches included), Workshops (subject to availability), and Community Area access.",
+        "salesStartDate": "2026-02-10T00:00:00",
+        "salesEndDate": "2026-03-16T23:59:59"
       },
       {
-        "id": "conference",
+        "id": "conference-regular",
         "name": "Conference – Regular",
-        "price": "130€ (ex. VAT @22%)",
-        "description": "Two day conference ticket. Standard admission to the main conference days.",
-        "salesStartDate": "2026-02-01T00:00:00",
-        "salesEndDate": "2026-05-14T23:59:59"
+        "price": "160€ (ex. VAT @22%)",
+        "description": "2-day Conference access (lunches included), Workshops (subject to availability), and Community Area access.",
+        "salesStartDate": "2026-03-17T00:00:00",
+        "salesEndDate": "2026-05-18T23:59:59"
       }
     ]
   },
