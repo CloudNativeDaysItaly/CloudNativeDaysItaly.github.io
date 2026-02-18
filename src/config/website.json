@@ -9,7 +9,7 @@
       "description": "Cloud Native Days (CND) Italy is a local, community-organized event that gathers adopters and technologists from open source and cloud native communities."
     },
     "contact": {
-      "email": "cloudnativedaysitaly@gmail.com"
+      "email": "org@cloudnativedaysitaly.org"
     }
   },
   "navbar": {
@@ -170,7 +170,7 @@
       "title": "Our Sponsors",
       "description": "Thank you to our amazing sponsors who make this event possible!"
     },
-    "contactEmail": "cloudnativedaysitaly@gmail.com",
+    "contactEmail": "org@cloudnativedaysitaly.org",
     "prospectus": {
       "url": "/prospectus/cloudnativedays-italy-2026-sponsorship-prospectus.pdf",
       "label": "Download Sponsorship Prospectus"
