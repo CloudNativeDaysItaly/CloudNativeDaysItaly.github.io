@@ -123,6 +123,11 @@
           "description": "Get hands-on experience with cloud-native technologies and tools in our workshops."
         }
       }
+    },
+    "CTA": {
+      "active": true,
+      "label": "Join our community",
+      "url": "https://t.me/cloudnativedaysitaly"
     }
   },
   "proposal": {
