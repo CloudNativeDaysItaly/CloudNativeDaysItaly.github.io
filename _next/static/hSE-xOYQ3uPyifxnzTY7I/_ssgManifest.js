@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[year]","\u002Fprofile\u002F[profileId]","\u002Ftalk\u002F[talkId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
