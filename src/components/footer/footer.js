@@ -124,7 +124,7 @@ export default function Footer({ data, editions = [] }) {
 
           <div className='mt-12 border-t border-gray-800 pt-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4'>
             <p className='text-sm text-gray-500 text-center sm:text-left'>
-              &copy; {currentYear} {general.event.name}. All rights reserved.
+              &copy; {currentYear} {general.event.name}. Some rights reserved.
             </p>
             <div className='flex justify-center gap-4 flex-wrap'>
               {footer.icons
