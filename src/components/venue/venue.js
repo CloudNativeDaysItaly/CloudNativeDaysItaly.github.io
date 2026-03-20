@@ -1,8 +1,8 @@
 'use client';
 
-import { MapPin, ArrowRight } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import Image from 'next/image';
-import Link from 'next/link';
+import OpenStreetMapEmbed from '@/components/maps/OpenStreetMapEmbed';
 
 const Venue = ({ data }) => {
     if (!data) return null;
@@ -27,27 +27,11 @@ const Venue = ({ data }) => {
                             </div>
                         </div>
 
-                        <div className="mt-8 h-64 w-full rounded-xl overflow-hidden border-2 border-white/10 shadow-lg">
-                            <iframe
-                                className="w-full h-full"
-                                src={data.mapLink}
-                                style={{ border: 0 }}
-                                allowFullScreen=""
-                                loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"
-                            ></iframe>
-                        </div>
-
-                        <div className="mt-8">
-                            <a
-                                href="https://www.google.com/maps/search/?api=1&query=Savoia+Hotel+Regency"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="group inline-flex items-center gap-2 text-lg font-semibold text-blue-400 hover:text-white transition-colors"
-                            >
-                                Get Directions <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-                            </a>
-                        </div>
+                        <OpenStreetMapEmbed
+                            mapLink={data.mapLink}
+                            mapDirectionsUrl={data.mapDirectionsUrl}
+                            rootClassName="mt-8"
+                        />
                     </div>
 
                     <div className="relative h-[500px] hidden lg:block">

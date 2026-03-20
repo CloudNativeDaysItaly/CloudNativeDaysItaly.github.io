@@ -6,6 +6,7 @@ import config from '@/config/website.json';
 import PersonCard from '@/components/people/PersonCard';
 import Sponsors from '@/components/sponsor/sponsor';
 import ContentHub from '@/components/ContentHub/ContentHub';
+import OpenStreetMapEmbed from '@/components/maps/OpenStreetMapEmbed';
 
 export default function PastEditionComponent({ year, initialEventData }) {
 
@@ -90,9 +91,18 @@ export default function PastEditionComponent({ year, initialEventData }) {
                         <MapPin className="h-12 w-12 mx-auto mb-4 text-blue-400" />
                         <h2 className="text-3xl sm:text-4xl font-bold mb-4">Event Location</h2>
                         <p className="text-xl sm:text-2xl">{initialEventData.location.name}, {initialEventData.location.city}</p>
+                        {initialEventData.location.street && (
+                            <p className="text-lg text-gray-300 mt-3">{initialEventData.location.street}</p>
+                        )}
                         {initialEventData.location.image && (
                             <img src={initialEventData.location.image} alt={initialEventData.location.name} className="mt-8 rounded-lg shadow-lg w-full max-w-4xl mx-auto" />
                         )}
+                        <OpenStreetMapEmbed
+                            mapLink={initialEventData.location.mapLink}
+                            mapDirectionsUrl={initialEventData.location.mapDirectionsUrl}
+                            rootClassName="mt-8 max-w-4xl mx-auto w-full"
+                            iframeTitle={`Map — ${initialEventData.location.name} (OpenStreetMap)`}
+                        />
                     </div>
                 </section>
 
