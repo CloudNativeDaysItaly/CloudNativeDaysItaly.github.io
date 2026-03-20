@@ -85,7 +85,11 @@
         "alt": "Cloud Native Days Italy on X",
         "active": true
       }
-    ]
+    ],
+    "license": {
+      "shortName": "CC BY-SA 4.0",
+      "deedUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
   },
   "hero": {
     "countDown": "2026-05-18T09:00:00",

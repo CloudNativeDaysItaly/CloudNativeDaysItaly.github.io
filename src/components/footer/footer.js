@@ -123,9 +123,24 @@ export default function Footer({ data, editions = [] }) {
           </div>
 
           <div className='mt-12 border-t border-gray-800 pt-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4'>
-            <p className='text-sm text-gray-500 text-center sm:text-left'>
-              &copy; {currentYear} {general.event.name}. Some rights reserved.
-            </p>
+            <div className='text-sm text-gray-500 text-center sm:text-left max-w-md sm:max-w-lg space-y-1.5'>
+              <p className='text-gray-400'>
+                {currentYear} {general.event.name}
+              </p>
+              <p className='leading-relaxed'>
+                Unless otherwise noted, content is licensed under{' '}
+                <a
+                  href={footer.license.deedUrl}
+                  target='_blank'
+                  rel='license noopener noreferrer'
+                  title='Creative Commons Attribution-ShareAlike 4.0 International'
+                  className='text-gray-400 hover:text-white underline underline-offset-2'
+                >
+                  {footer.license.shortName}
+                </a>
+                .
+              </p>
+            </div>
             <div className='flex justify-center gap-4 flex-wrap'>
               {footer.icons
                 .filter((i) => i.active)

@@ -103,7 +103,10 @@
   },
   "location": {
     "name": "Savoia Hotel Regency",
+    "street": "Via del Pilastro, 2",
     "city": "Bologna",
+    "mapLink": "https://www.openstreetmap.org/export/embed.html?bbox=11.37739%2C44.51328%2C11.38539%2C44.51928&layer=mapnik&marker=44.51628%2C11.38139",
+    "mapDirectionsUrl": "https://www.openstreetmap.org/?mlat=44.51628&mlon=11.38139#map=17/44.51628/11.38139",
     "image": "/images/savoia-hotel-regency-1.webp"
   }
 }
