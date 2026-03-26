@@ -40,7 +40,7 @@ const SpeakerCard = ({ speaker }) => (
             </div>
         </div>
         <div className="border-t border-gray-100 p-4">
-            <Link href={`/profiles/${speaker.id}`} className="block w-full text-center text-sm font-semibold text-blue-600 hover:text-blue-800">
+            <Link href={`/profile/${speaker.id}`} className="block w-full text-center text-sm font-semibold text-blue-600 hover:text-blue-800">
                 View Profile
             </Link>
         </div>
