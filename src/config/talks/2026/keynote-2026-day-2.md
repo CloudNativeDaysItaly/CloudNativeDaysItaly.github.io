@@ -1,9 +1,9 @@
 ---
 id: keynote-2026-day-2
-title: 'Keynote: The hidden cognitive cost of cloud-native sprawl'
+title: 'Keynote: Open Source at CERN'
 type: keynote
 speakerIds:
-  - vladi-stevanovic
+  - giacomo-tenaglia
 tags:
   - ENG
 level: all
@@ -12,8 +12,8 @@ video: ''
 slide: ''
 ---
 
-Every day, cloud-native developers navigate an ecosystem that has exploded in complexity. Hundreds of tools to choose from and of configuration options, and thousands of micro-decisions daily.
+The European Organization for Nuclear Research (CERN) is considered the world's largest physics lab and sits on the border of France and Switzerland, close to Geneva. It is known for operating the Large Hadron Collider, and also runs many other research projects as well as all the supporting infrastructure. CERN's community is a strong user, supporter and contributor to Open Source and is proud to have been the founder of many Open Source innovations, among them being the World Wide Web. Open Source is one of the key elements of CERN's Open Science activities.
 
-This talk applies behavioral economics and cognitive psychology to explain why making technical choices is so mentally exhausting and what we can do about it.
+A few years ago, CERN launched an Open Source Program Office (OSPO) to better support Open Source Hardware and Software practices at CERN: a service "from the community to the community" to make sure CERN's Open Source projects, contributions and usage is consistent, long-lived and following best practices.
 
-You'll learn the science behind decision fatigue, how cognitive biases shape our architecture decisions, and practical strategies to reduce the cognitive load on your teams.
+This talk will present the journey leading to the creation of CERN's OSPO, a selection of current activities and the upcoming challenges in the area.
