@@ -1,6 +1,6 @@
 ---
 id: one-repo-to-rule-them-all
-title: 'One repo to rule them all: managing heterogeneous clusters with sveltos and gitops'
+title: 'One repo to rule them all: managing  heterogeneous clusters with sveltos and gitops'
 type: talk
 speakerIds:
   - stefano-sibilia

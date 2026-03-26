@@ -5,7 +5,7 @@ type: talk
 speakerIds:
   - luca-de-carne
 tags:
-  - ENG
+  - BOTH
 level: Intermediate
 image: ''
 video: ''

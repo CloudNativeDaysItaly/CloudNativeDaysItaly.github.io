@@ -1,6 +1,6 @@
 ---
 id: gpu-is-not-monolithic-packing-llms-with-migs-on-kubernetes
-title: 'GPU is not Monolithic: Packing LLMs with MIGs on Kubernetes'
+title: 'GPU is not Monolithic : Packing LLMs with MIGs on Kubernetes'
 type: talk
 speakerIds:
   - hajed-khlifi

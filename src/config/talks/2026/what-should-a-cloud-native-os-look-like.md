@@ -6,7 +6,7 @@ speakerIds:
   - mauro-morales
 tags:
   - ENG
-level: Intermediate
+level: all
 image: ''
 video: ''
 slide: ''

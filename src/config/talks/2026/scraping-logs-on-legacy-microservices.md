@@ -5,7 +5,7 @@ type: talk
 speakerIds:
   - giorgia-rondinini
 tags:
-  - ITA
+  - BOTH
 level: Intermediate
 image: ''
 video: ''

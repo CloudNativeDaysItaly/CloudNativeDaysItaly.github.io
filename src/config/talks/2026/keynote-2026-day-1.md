@@ -1,6 +1,6 @@
 ---
 id: keynote-2026-day-1
-title: 'Keynote: The hidden cognitive cost of cloud-native sprawl'
+title: 'Keynote: The hidden cognitive cost of cloud-native sprawl: making (and surviving) hundreds of choices a day'
 type: keynote
 speakerIds:
   - vladi-stevanovic

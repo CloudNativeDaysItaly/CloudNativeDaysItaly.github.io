@@ -8,4 +8,4 @@ image: "/images/profiles/hajed-khlifi.webp"
 linkedin: "https://www.linkedin.com/in/hajed-kh/"
 ---
 
-Cloud Architect specializing in the management of large-scale systems and the development of cutting-edge solutions based on platform engineering, infrastructure and operations best practices. Focused on cloud-native architectures, disconnected cloud and AI Infrastructure and operations. An international speaker, researcher and active contributor to the Cloud Native Computing Foundation (CNCF), officially recognized as a Kubestronaut.
+Cloud Architect specializes in the management of large-scale systems and the development of cutting-edge solutions based on platform engineering , Infrastructure and operations best practices. My work is focused on cloud-native architectures , Disconnected cloud and lately I am mainly working on AI Infrastructure and operations. I am an international speaker, researcher and also an active contributor to the Cloud Native Computing Foundation (CNCF) this involvement  led to my official recognition as a Kubestronaut.

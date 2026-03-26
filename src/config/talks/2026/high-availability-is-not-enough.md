@@ -5,7 +5,7 @@ type: talk
 speakerIds:
   - enrico-la-sala
 tags:
-  - ENG
+  - BOTH
 level: Intermediate
 image: ''
 video: ''

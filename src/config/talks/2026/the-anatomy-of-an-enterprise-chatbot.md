@@ -5,7 +5,7 @@ type: talk
 speakerIds:
   - serena-sensini
 tags:
-  - ENG
+  - BOTH
 level: Intermediate
 image: ''
 video: ''

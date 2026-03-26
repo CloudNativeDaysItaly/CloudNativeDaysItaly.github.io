@@ -6,7 +6,7 @@ speakerIds:
   - christian-squadritti
 tags:
   - ITA
-level: Beginner
+level: Beginners
 image: ''
 video: ''
 slide: ''

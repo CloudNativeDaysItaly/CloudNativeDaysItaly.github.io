@@ -6,7 +6,7 @@ speakerIds:
   - eleni-grosdouli
 tags:
   - ENG
-level: Beginner
+level: Beginners
 image: ''
 video: ''
 slide: ''

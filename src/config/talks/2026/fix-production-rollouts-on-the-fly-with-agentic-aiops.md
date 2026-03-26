@@ -5,7 +5,7 @@ type: talk
 speakerIds:
   - kevin-dubois
 tags:
-  - ENG
+  - BOTH
 level: Intermediate
 image: ''
 video: ''
