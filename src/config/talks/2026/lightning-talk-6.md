@@ -5,7 +5,7 @@ type: lightning-talk
 speakerIds:
   - placeholder
 tags:
-  - LIGHTNING
+  - LIGHTNING 
 level: all
 image: ''
 video: ''
