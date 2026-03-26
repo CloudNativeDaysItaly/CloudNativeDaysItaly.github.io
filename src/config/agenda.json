@@ -20,7 +20,8 @@
   "tracks": [
     { "id": "track1", "name": "Track 1", "room": "Sala 1" },
     { "id": "track2", "name": "Track 2", "room": "Sala 2" },
-    { "id": "workshop", "name": "Workshop", "room": "Sala Workshop" }
+    { "id": "workshop1", "name": "Workshop 1", "room": "Sala Workshop 1" },
+    { "id": "workshop2", "name": "Workshop 2", "room": "Sala Workshop 2" }
   ],
   "schedule": {
     "conference-day-1": [
@@ -45,8 +46,8 @@
       {
         "time": "10:50 - 11:05",
         "sessions": [
-          { "talkId": "beyond-tool-sprawl", "trackId": "track1" },
-          { "talkId": "sponsored-lightning-talk-1", "trackId": "track2" }
+          { "talkId": "lightning-talk-1", "trackId": "track1" },
+          { "talkId": "beyond-tool-sprawl", "trackId": "track2" }
         ]
       },
       {
@@ -63,15 +64,15 @@
       {
         "time": "12:10 - 12:25",
         "sessions": [
-          { "talkId": "human-kubernetes-sopravvivere-a-un-minuto-di-chaos", "trackId": "track1" },
-          { "talkId": "sponsored-lightning-talk-2", "trackId": "track2" }
+          { "talkId": "lightning-talk-2", "trackId": "track1" },
+          { "talkId": "lightning-talk-3", "trackId": "track2" }
         ]
       },
       {
         "time": "12:25 - 13:00",
         "sessions": [
-          { "talkId": "gpu-is-not-monolithic-packing-llms-with-migs-on-kubernetes", "trackId": "track1" },
-          { "talkId": "high-availability-is-not-enough", "trackId": "track2" }
+          { "talkId": "high-availability-is-not-enough", "trackId": "track1" },
+          { "talkId": "gpu-is-not-monolithic-packing-llms-with-migs-on-kubernetes", "trackId": "track2" }
         ]
       },
       {
@@ -88,8 +89,8 @@
       {
         "time": "15:15 - 15:30",
         "sessions": [
-          { "talkId": "oops-driven-development", "trackId": "track1" },
-          { "talkId": "sponsored-lightning-talk-3", "trackId": "track2" }
+          { "talkId": "from-legacy-api-gateway-to-kubernetes-native-api-platform", "trackId": "track1" },
+          { "talkId": "lightning-talk-4", "trackId": "track2" }
         ]
       },
       {
@@ -151,8 +152,8 @@
       {
         "time": "10:50 - 11:05",
         "sessions": [
-          { "talkId": "from-laptop-to-cloud-deploying-an-ai-model", "trackId": "track1" },
-          { "talkId": "sponsored-lightning-talk-4", "trackId": "track2" }
+          { "talkId": "human-kubernetes-sopravvivere-a-un-minuto-di-chaos", "trackId": "track1" },
+          { "talkId": "from-laptop-to-cloud-deploying-an-ai-model", "trackId": "track2" }
         ]
       },
       {
@@ -162,15 +163,15 @@
       {
         "time": "11:35 - 12:10",
         "sessions": [
-          { "talkId": "gitops-at-scale-why-your-hub-and-spoke-architecture-is-a-security-risk", "trackId": "track1" },
-          { "talkId": "the-anatomy-of-an-enterprise-chatbot", "trackId": "track2" }
+          { "talkId": "the-anatomy-of-an-enterprise-chatbot", "trackId": "track1" },
+          { "talkId": "gitops-at-scale-why-your-hub-and-spoke-architecture-is-a-security-risk", "trackId": "track2" }
         ]
       },
       {
         "time": "12:10 - 12:25",
         "sessions": [
           { "talkId": "thanks-ai-hate-it", "trackId": "track1" },
-          { "talkId": "sponsored-lightning-talk-5", "trackId": "track2" }
+          { "talkId": "lightning-talk-5", "trackId": "track2" }
         ]
       },
       {
@@ -192,14 +193,15 @@
         "time": "14:45 - 15:20",
         "sessions": [
           { "talkId": "scraping-logs-on-legacy-microservices", "trackId": "track1" },
-          { "talkId": "from-legacy-api-gateway-to-kubernetes-native-api-platform", "trackId": "track2" }
+          { "talkId": "oops-driven-development", "trackId": "track2" }
+          
         ]
       },
       {
         "time": "15:20 - 15:35",
         "sessions": [
-          { "talkId": "sponsored-lightning-talk-6", "trackId": "track1" },
-          { "talkId": "tbd-lightning-talk", "trackId": "track2" }
+          { "talkId": "lightning-talk-6", "trackId": "track1" },
+          { "talkId": "lightning-talk-7", "trackId": "track2" }
         ]
       },
       {
@@ -251,7 +253,8 @@
       {
         "time": "10:15 - 13:15",
         "sessions": [
-          { "talkId": "workshop-2026-1", "trackId": "workshop" }
+          { "talkId": "workshop-2026-1", "trackId": "workshop1" },
+          { "talkId": "workshop-2026-2", "trackId": "workshop2" }
         ]
       },
       {
@@ -261,7 +264,8 @@
       {
         "time": "14:45 - 17:45",
         "sessions": [
-          { "talkId": "workshop-2026-2", "trackId": "workshop" }
+          { "talkId": "workshop-2026-3", "trackId": "workshop1" },
+          { "talkId": "workshop-2026-4", "trackId": "workshop2" }
         ]
       },
       {
