@@ -1,60 +1,272 @@
 {
-  "isPublished": false,
+  "isPublished": true,
   "days": [
+    {
+      "id": "conference-day-1",
+      "name": "Conference Day 1",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "conference-day-2",
+      "name": "Conference Day 2",
+      "date": "2026-05-19"
+    },
     {
       "id": "workshop-day",
       "name": "Workshop Day",
-      "date": "2025-06-23"
-    },
-    {
-      "id": "conference-day",
-      "name": "Conference Day",
-      "date": "2025-06-24"
+      "date": "2026-05-19"
     }
   ],
   "tracks": [
-    { "id": "track1", "name": "Track 1", "room": "Main Room" },
-    { "id": "track2", "name": "Track 2", "room": "Community Room" }
+    { "id": "track1", "name": "Track 1", "room": "Sala 1" },
+    { "id": "track2", "name": "Track 2", "room": "Sala 2" },
+    { "id": "workshop", "name": "Workshop", "room": "Sala Workshop" }
   ],
   "schedule": {
-    "workshop-day": [
+    "conference-day-1": [
       {
-        "time": "09:00 - 09:30",
-        "sessions": [ { "title": "Registration & Breakfast", "type": "break" } ]
+        "time": "09:00 - 09:45",
+        "sessions": [{ "title": "Check-in & Registration", "type": "break" }]
       },
       {
-        "time": "09:30 - 13:00",
-        "sessions": [
-          { "talkId": "dagli-alert-allazione-costruire-una-cloud-native-security-efficace-con-falco-feeds-and-talon", "trackId": "track1" },
-          { "talkId": "orchestrating-add-ons-and-applications-across-multi-cluster-kubernetes-environments-with-sveltos", "trackId": "track2" }
-        ]
+        "time": "09:45 - 10:00",
+        "sessions": [{ "title": "Organizers Welcome", "type": "break" }]
       },
       {
-        "time": "13:00 - 14:30",
-        "sessions": [ { "title": "Lunch Break", "type": "break" } ]
-      }
-    ],
-    "conference-day": [
-      {
-        "time": "08:30 - 09:30",
-        "sessions": [ { "title": "Registration & Networking", "type": "break" } ]
-      },
-      {
-        "time": "09:30 - 09:45",
-        "sessions": [
-          { "talkId": "dagli-alert-allazione-costruire-una-cloud-native-security-efficace-con-falco-feeds-and-talon", "trackId": "track1", "isPlenary": true }
-        ]
-      },
-      {
-        "time": "09:45 - 10:15",
-        "sessions": [ { "talkId": "opening-keynote-the-new-digital-nervous-system" } ]
+        "time": "10:00 - 10:15",
+        "sessions": [{ "title": "Platinum Sponsor Keynote", "type": "break" }]
       },
       {
         "time": "10:15 - 10:50",
         "sessions": [
-          { "talkId": "bridging-the-gaps-communication-strategies-for-kubernetes-releases", "trackId": "track1" },
-          { "talkId": "bringing-cloud-native-agility-to-bare-metal-kubernetes-with-cluster-api-and-metal", "trackId": "track2" }
+          { "talkId": "keynote-2026-day-1", "isPlenary": true }
         ]
+      },
+      {
+        "time": "10:50 - 11:05",
+        "sessions": [
+          { "talkId": "beyond-tool-sprawl", "trackId": "track1" },
+          { "talkId": "sponsored-lightning-talk-1", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "11:05 - 11:35",
+        "sessions": [{ "title": "Coffee Break", "type": "break" }]
+      },
+      {
+        "time": "11:35 - 12:10",
+        "sessions": [
+          { "talkId": "fix-production-rollouts-on-the-fly-with-agentic-aiops", "trackId": "track1" },
+          { "talkId": "api-first-idps-on-kubernetes", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "12:10 - 12:25",
+        "sessions": [
+          { "talkId": "human-kubernetes-sopravvivere-a-un-minuto-di-chaos", "trackId": "track1" },
+          { "talkId": "sponsored-lightning-talk-2", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "12:25 - 13:00",
+        "sessions": [
+          { "talkId": "gpu-is-not-monolithic-packing-llms-with-migs-on-kubernetes", "trackId": "track1" },
+          { "talkId": "high-availability-is-not-enough", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "13:00 - 14:40",
+        "sessions": [{ "title": "Lunch Break", "type": "break" }]
+      },
+      {
+        "time": "14:40 - 15:15",
+        "sessions": [
+          { "talkId": "agentic-ai-in-platforms", "trackId": "track1" },
+          { "talkId": "the-truth-about-gpu-sharing-in-multi-tenant-kubernetes", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "15:15 - 15:30",
+        "sessions": [
+          { "talkId": "oops-driven-development", "trackId": "track1" },
+          { "talkId": "sponsored-lightning-talk-3", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "15:30 - 16:05",
+        "sessions": [
+          { "talkId": "freelens-un-progetto-open-source-italiano", "trackId": "track1" },
+          { "talkId": "building-a-multi-cloud-data-platform-in-a-tightly-regulated-industry", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "16:05 - 16:35",
+        "sessions": [{ "title": "Coffee Break", "type": "break" }]
+      },
+      {
+        "time": "16:35 - 17:10",
+        "sessions": [
+          { "talkId": "from-prompt-injection-to-root-access", "trackId": "track1" },
+          { "talkId": "booting-into-kubernetes-with-an-immutable-os", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "17:10 - 17:45",
+        "sessions": [
+          { "talkId": "tbd-talk-1", "trackId": "track1" },
+          { "talkId": "tbd-talk-2", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "17:45 - 18:00",
+        "sessions": [{ "title": "Day Closing", "type": "break" }]
+      },
+      {
+        "time": "18:00 - 20:00",
+        "sessions": [{ "title": "Aperitivo", "type": "break" }]
+      }
+    ],
+    "conference-day-2": [
+      {
+        "time": "09:00 - 09:30",
+        "sessions": [{ "title": "Check-in & Registration", "type": "break" }]
+      },
+      {
+        "time": "09:30 - 09:40",
+        "sessions": [{ "title": "Organizers Welcome", "type": "break" }]
+      },
+      {
+        "time": "09:40 - 10:15",
+        "sessions": [
+          { "talkId": "keynote-2026-day-2", "isPlenary": true }
+        ]
+      },
+      {
+        "time": "10:15 - 10:50",
+        "sessions": [
+          { "talkId": "change-drives-cloud-native", "trackId": "track1" },
+          { "talkId": "from-cloud-native-to-agentic-applications", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "10:50 - 11:05",
+        "sessions": [
+          { "talkId": "from-laptop-to-cloud-deploying-an-ai-model", "trackId": "track1" },
+          { "talkId": "sponsored-lightning-talk-4", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "11:05 - 11:35",
+        "sessions": [{ "title": "Coffee Break", "type": "break" }]
+      },
+      {
+        "time": "11:35 - 12:10",
+        "sessions": [
+          { "talkId": "gitops-at-scale-why-your-hub-and-spoke-architecture-is-a-security-risk", "trackId": "track1" },
+          { "talkId": "the-anatomy-of-an-enterprise-chatbot", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "12:10 - 12:25",
+        "sessions": [
+          { "talkId": "thanks-ai-hate-it", "trackId": "track1" },
+          { "talkId": "sponsored-lightning-talk-5", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "12:25 - 13:00",
+        "sessions": [
+          { "talkId": "stop-hiding-kubernetes-pod-inefficiencies-with-horizontal-scaling", "trackId": "track1" },
+          { "talkId": "what-should-a-cloud-native-os-look-like", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "13:00 - 13:15",
+        "sessions": [{ "title": "Community Slot", "type": "break" }]
+      },
+      {
+        "time": "13:15 - 14:45",
+        "sessions": [{ "title": "Lunch Break", "type": "break" }]
+      },
+      {
+        "time": "14:45 - 15:20",
+        "sessions": [
+          { "talkId": "scraping-logs-on-legacy-microservices", "trackId": "track1" },
+          { "talkId": "from-legacy-api-gateway-to-kubernetes-native-api-platform", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "15:20 - 15:35",
+        "sessions": [
+          { "talkId": "sponsored-lightning-talk-6", "trackId": "track1" },
+          { "talkId": "tbd-lightning-talk", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "15:35 - 16:10",
+        "sessions": [
+          { "talkId": "one-repo-to-rule-them-all", "trackId": "track1" },
+          { "talkId": "tbd-talk-3", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "16:10 - 16:45",
+        "sessions": [{ "title": "Coffee Break", "type": "break" }]
+      },
+      {
+        "time": "16:45 - 17:00",
+        "sessions": [{ "title": "Community Slot", "type": "break" }]
+      },
+      {
+        "time": "17:00 - 17:35",
+        "sessions": [
+          { "talkId": "platform-engineering-and-ai-agents", "trackId": "track1" },
+          { "talkId": "tbd-talk-4", "trackId": "track2" }
+        ]
+      },
+      {
+        "time": "17:35 - 17:45",
+        "sessions": [{ "title": "Room Change", "type": "break" }]
+      },
+      {
+        "time": "17:45 - 18:00",
+        "sessions": [{ "title": "Closing Ceremony", "type": "break" }]
+      }
+    ],
+    "workshop-day": [
+      {
+        "time": "09:00 - 09:30",
+        "sessions": [{ "title": "Check-in & Registration", "type": "break" }]
+      },
+      {
+        "time": "09:30 - 09:40",
+        "sessions": [{ "title": "Organizers Welcome", "type": "break" }]
+      },
+      {
+        "time": "09:40 - 10:15",
+        "sessions": [
+          { "talkId": "keynote-2026-day-2", "isPlenary": true }
+        ]
+      },
+      {
+        "time": "10:15 - 13:15",
+        "sessions": [
+          { "talkId": "workshop-2026-1", "trackId": "workshop" }
+        ]
+      },
+      {
+        "time": "13:15 - 14:45",
+        "sessions": [{ "title": "Lunch Break", "type": "break" }]
+      },
+      {
+        "time": "14:45 - 17:45",
+        "sessions": [
+          { "talkId": "workshop-2026-2", "trackId": "workshop" }
+        ]
+      },
+      {
+        "time": "17:45 - 18:00",
+        "sessions": [{ "title": "Day Closing", "type": "break" }]
       }
     ]
   }
