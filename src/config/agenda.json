@@ -33,14 +33,14 @@
         "sessions": [{ "title": "Organizers Welcome", "type": "break" }]
       },
       {
-        "time": "10:00 - 10:15",
-        "sessions": [{ "title": "Platinum Sponsor Keynote", "type": "break" }]
-      },
-      {
-        "time": "10:15 - 10:50",
+        "time": "10:00 - 10:35",
         "sessions": [
           { "talkId": "keynote-2026-day-1", "isPlenary": true }
         ]
+      },
+      {
+        "time": "10:35 - 10:50",
+        "sessions": [{ "title": "Platinum Sponsor Keynote", "type": "break" }]
       },
       {
         "time": "10:50 - 11:05",
