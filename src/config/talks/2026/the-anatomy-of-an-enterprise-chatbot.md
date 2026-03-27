@@ -4,6 +4,7 @@ title: 'The anatomy of an enterprise chatbot'
 type: talk
 speakerIds:
   - serena-sensini
+  - alessandro-liscio
 tags:
   - BOTH
 level: Intermediate
