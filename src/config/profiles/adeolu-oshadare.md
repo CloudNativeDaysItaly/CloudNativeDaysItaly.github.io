@@ -5,7 +5,7 @@ role: "AI Deployment Enthusiast"
 company: "Oasis community Housing"
 companyUrl: "#"
 image: "/images/profiles/adeolu-oshadare.webp"
-linkedin: "#"
+linkedin: ""
 ---
 
 Adeolu Oshadare is a Data Scientist and AI development enthusiast with a background in geospatial analytics and cloud-native systems. She works at the intersection of machine learning and infrastructure, focusing on transforming locally built models into scalable, production-ready services.

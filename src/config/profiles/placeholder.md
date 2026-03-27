@@ -5,7 +5,7 @@ role: ""
 company: ""
 companyUrl: "#"
 image: "/images/favicon.png"
-linkedin: "#"
+linkedin: ""
 ---
 
 Speaker details will be announced soon.
