@@ -139,7 +139,7 @@ export default async function HomePage() {
                 sponsorsByTier={sponsorsData}
                 tiersConfig={config.sponsors.tiers}
                 sectionsContent={config.sponsors}
-                order={['main', 'gold', 'silver', 'partner']}
+                order={['main', 'gold', 'silver', 'workshop', 'partner']}
                 isCurrent={true}
             />
 
