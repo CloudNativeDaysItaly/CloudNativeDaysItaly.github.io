@@ -5,7 +5,7 @@ type: talk
 speakerIds:
   - ralph-squillace
 tags:
-  - BOTH
+  - ITA
 level: Intermediate
 image: ''
 video: ''

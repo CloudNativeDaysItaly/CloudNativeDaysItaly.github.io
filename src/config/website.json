@@ -205,6 +205,11 @@
         "class": "bg-white shadow-sm",
         "badgeClass": "bg-orange-50 text-orange-500"
       },
+      "workshop": {
+        "title": "Workshop",
+        "class": "bg-white shadow-sm",
+        "badgeClass": "bg-purple-50 text-purple-500"
+      },
       "partner": {
         "title": "Community & Media Partners",
         "class": "bg-white shadow-sm",

@@ -1,6 +1,6 @@
 ---
-id: workshop-2026-1
-title: 'Workshop 1'
+id: tbd-workshop-1
+title: 'Workshop TBA'
 type: workshop
 speakerIds:
   - placeholder

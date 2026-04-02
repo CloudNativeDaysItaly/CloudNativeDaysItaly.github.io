@@ -46,7 +46,7 @@
       {
         "time": "10:50 - 11:05",
         "sessions": [
-          { "talkId": "lightning-talk-1", "trackId": "track1" },
+          { "talkId": "lightning-talk-tba-1", "trackId": "track1" },
           { "talkId": "beyond-tool-sprawl", "trackId": "track2" }
         ]
       },
@@ -64,8 +64,8 @@
       {
         "time": "12:10 - 12:25",
         "sessions": [
-          { "talkId": "lightning-talk-2", "trackId": "track1" },
-          { "talkId": "lightning-talk-3", "trackId": "track2" }
+          { "talkId": "thanks-ai-hate-it", "trackId": "track1" },
+          { "talkId": "lightning-talk-tba-2", "trackId": "track2" }
         ]
       },
       {
@@ -82,22 +82,22 @@
       {
         "time": "14:40 - 15:15",
         "sessions": [
-          { "talkId": "agentic-ai-in-platforms", "trackId": "track1" },
+          { "talkId": "federated-identity-su-kubernetes", "trackId": "track1" },
           { "talkId": "the-truth-about-gpu-sharing-in-multi-tenant-kubernetes", "trackId": "track2" }
         ]
       },
       {
         "time": "15:15 - 15:30",
         "sessions": [
-          { "talkId": "from-legacy-api-gateway-to-kubernetes-native-api-platform", "trackId": "track1" },
-          { "talkId": "lightning-talk-4", "trackId": "track2" }
+          { "talkId": "lightning-talk-tba-3", "trackId": "track1" },
+          { "talkId": "oops-driven-development", "trackId": "track2" }
         ]
       },
       {
         "time": "15:30 - 16:05",
         "sessions": [
           { "talkId": "freelens-un-progetto-open-source-italiano", "trackId": "track1" },
-          { "talkId": "tbd-talk-5", "trackId": "track2" }
+          { "talkId": "a-practical-guide-to-inner-sourcing-your-idp", "trackId": "track2" }
         ]
       },
       {
@@ -114,8 +114,8 @@
       {
         "time": "17:10 - 17:45",
         "sessions": [
-          { "talkId": "tbd-talk-1", "trackId": "track1" },
-          { "talkId": "tbd-talk-2", "trackId": "track2" }
+          { "talkId": "applying-cicd-patterns-to-bootc-containers", "trackId": "track1" },
+          { "talkId": "pushing-the-limits-running-large-scale-hpc-workloads-on-kubernetes", "trackId": "track2" }
         ]
       },
       {
@@ -152,7 +152,7 @@
       {
         "time": "10:50 - 11:05",
         "sessions": [
-          { "talkId": "human-kubernetes-sopravvivere-a-un-minuto-di-chaos", "trackId": "track1" },
+          { "talkId": "lightning-talk-tba-4", "trackId": "track1" },
           { "talkId": "from-laptop-to-cloud-deploying-an-ai-model", "trackId": "track2" }
         ]
       },
@@ -170,8 +170,8 @@
       {
         "time": "12:10 - 12:25",
         "sessions": [
-          { "talkId": "thanks-ai-hate-it", "trackId": "track1" },
-          { "talkId": "lightning-talk-5", "trackId": "track2" }
+          { "talkId": "human-kubernetes-sopravvivere-a-un-minuto-di-chaos", "trackId": "track1" },
+          { "talkId": "lightning-talk-tba-5", "trackId": "track2" }
         ]
       },
       {
@@ -193,22 +193,21 @@
         "time": "14:45 - 15:20",
         "sessions": [
           { "talkId": "scraping-logs-on-legacy-microservices", "trackId": "track1" },
-          { "talkId": "oops-driven-development", "trackId": "track2" }
-          
+          { "talkId": "from-legacy-api-gateway-to-kubernetes-native-api-platform", "trackId": "track2" }
         ]
       },
       {
         "time": "15:20 - 15:35",
         "sessions": [
-          { "talkId": "lightning-talk-6", "trackId": "track1" },
-          { "talkId": "lightning-talk-7", "trackId": "track2" }
+          { "talkId": "lightning-talk-tba-6", "trackId": "track1" },
+          { "talkId": "tbd-lightning-talk", "trackId": "track2" }
         ]
       },
       {
         "time": "15:35 - 16:10",
         "sessions": [
           { "talkId": "one-repo-to-rule-them-all", "trackId": "track1" },
-          { "talkId": "tbd-talk-3", "trackId": "track2" }
+          { "talkId": "sboom-making-sboms-play-together", "trackId": "track2" }
         ]
       },
       {
@@ -223,7 +222,7 @@
         "time": "17:00 - 17:35",
         "sessions": [
           { "talkId": "platform-engineering-and-ai-agents", "trackId": "track1" },
-          { "talkId": "tbd-talk-4", "trackId": "track2" }
+          { "talkId": "agentic-ai-in-platforms", "trackId": "track2" }
         ]
       },
       {
@@ -253,8 +252,8 @@
       {
         "time": "10:15 - 13:15",
         "sessions": [
-          { "talkId": "workshop-2026-1", "trackId": "workshop1" },
-          { "talkId": "workshop-2026-2", "trackId": "workshop2" }
+          { "talkId": "tbd-workshop-1", "trackId": "workshop1" },
+          { "talkId": "tbd-workshop-2", "trackId": "workshop2" }
         ]
       },
       {
@@ -264,8 +263,8 @@
       {
         "time": "14:45 - 17:45",
         "sessions": [
-          { "talkId": "workshop-2026-3", "trackId": "workshop1" },
-          { "talkId": "workshop-2026-4", "trackId": "workshop2" }
+          { "talkId": "building-platforms-with-crossplane", "trackId": "workshop1" },
+          { "talkId": "building-infrastructure-tools-with-kubernetes-operators-and-go", "trackId": "workshop2" }
         ]
       },
       {

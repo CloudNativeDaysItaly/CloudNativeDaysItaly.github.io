@@ -5,7 +5,7 @@ type: talk
 speakerIds:
   - gregorio-palama
 tags:
-  - BOTH
+  - ITA
 level: Intermediate
 image: ''
 video: ''

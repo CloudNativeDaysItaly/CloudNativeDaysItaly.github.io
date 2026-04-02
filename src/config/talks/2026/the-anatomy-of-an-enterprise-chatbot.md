@@ -6,7 +6,7 @@ speakerIds:
   - serena-sensini
   - alessandro-liscio
 tags:
-  - BOTH
+  - ITA
 level: Intermediate
 image: ''
 video: ''
