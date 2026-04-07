@@ -57,7 +57,7 @@
       {
         "time": "11:35 - 12:10",
         "sessions": [
-          { "talkId": "fix-production-rollouts-on-the-fly-with-agentic-aiops", "trackId": "track1" },
+          { "talkId": "change-drives-cloud-native", "trackId": "track1" },
           { "talkId": "api-first-idps-on-kubernetes", "trackId": "track2" }
         ]
       },
@@ -71,7 +71,7 @@
       {
         "time": "12:25 - 13:00",
         "sessions": [
-          { "talkId": "high-availability-is-not-enough", "trackId": "track1" },
+          { "talkId": "fix-production-rollouts-on-the-fly-with-agentic-aiops", "trackId": "track1" },
           { "talkId": "gpu-is-not-monolithic-packing-llms-with-migs-on-kubernetes", "trackId": "track2" }
         ]
       },
@@ -145,7 +145,7 @@
       {
         "time": "10:15 - 10:50",
         "sessions": [
-          { "talkId": "change-drives-cloud-native", "trackId": "track1" },
+          { "talkId": "high-availability-is-not-enough", "trackId": "track1" },
           { "talkId": "from-cloud-native-to-agentic-applications", "trackId": "track2" }
         ]
       },
