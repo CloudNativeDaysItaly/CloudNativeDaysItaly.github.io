@@ -3,7 +3,7 @@
   "date": "2026-05-18",
   "description": "Cloud Native Days (CND) Italy is a local, community-organized event that brings together adopters and technologists from open source and cloud native communities. This is the fourth edition in Italy (formerly known as KCD Italy), aiming to bring the community together. The event provides a platform for professionals and experts from all levels and backgrounds to learn, network, and share their knowledge about cloud-native technologies.",
   "headerVideo": "https://www.youtube.com/embed/RFf1GNm7qJQ",
-  "thankyou":"Thank you for joining us at Cloud Native Days Italy 2025! We hope you enjoyed the event and gained valuable insights into the cloud native ecosystem. Stay tuned for updates on future events and community activities.",
+  "thankyou": "Thank you for joining us at Cloud Native Days Italy 2025! We hope you enjoyed the event and gained valuable insights into the cloud native ecosystem. Stay tuned for updates on future events and community activities.",
   "metrics": {
     "attendees": 210
   },
@@ -33,7 +33,6 @@
     "santiago-merlos",
     "gianluca-mardente",
     "serena-sensini",
-    "alessandro-liscio",
     "graziano-casto",
     "mauro-morales",
     "giacomo-tenaglia",
@@ -67,22 +66,9 @@
   ],
   "sponsors": {
     "silver": [],
-    "main": [
-      "sparkfabrik",
-      "clastix",
-      "desotech",
-      "reevo",
-      "seacom"
-    ],
-    "gold": [
-      "edb",
-      "sentinelone",
-      "aruba-cloud",
-      "docker"
-    ],
-    "workshop": [
-      "octopus-deploy"
-    ],
+    "main": ["sparkfabrik", "clastix", "desotech", "reevo", "seacom"],
+    "gold": ["edb", "sentinelone", "aruba-cloud", "docker"],
+    "workshop": ["octopus-deploy"],
     "partner": []
   },
   "location": {
