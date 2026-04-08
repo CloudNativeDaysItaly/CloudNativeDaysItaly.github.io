@@ -146,7 +146,7 @@
         "time": "10:15 - 10:50",
         "sessions": [
           { "talkId": "high-availability-is-not-enough", "trackId": "track1" },
-          { "talkId": "from-cloud-native-to-agentic-applications", "trackId": "track2" }
+          { "talkId": "agentic-ai-in-platforms", "trackId": "track2" }
         ]
       },
       {
@@ -222,7 +222,7 @@
         "time": "17:00 - 17:35",
         "sessions": [
           { "talkId": "platform-engineering-and-ai-agents", "trackId": "track1" },
-          { "talkId": "agentic-ai-in-platforms", "trackId": "track2" }
+          { "talkId": "from-cloud-native-to-agentic-applications", "trackId": "track2" }
         ]
       },
       {
