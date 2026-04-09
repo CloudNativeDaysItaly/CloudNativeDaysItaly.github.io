@@ -4,6 +4,7 @@ title: "Federated Identity su Kubernetes per l'accesso ai servizi cloud senza cr
 type: talk
 speakerIds:
   - federico-soave
+  - federico-quaglia
 tags:
   - ITA
 level: Intermediate
