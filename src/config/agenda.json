@@ -65,7 +65,7 @@
         "time": "12:10 - 12:25",
         "sessions": [
           { "talkId": "thanks-ai-hate-it", "trackId": "track1" },
-          { "talkId": "lightning-talk-tba-2", "trackId": "track2" }
+          { "talkId": "sboom-making-sboms-play-together", "trackId": "track2" }
         ]
       },
       {
@@ -114,7 +114,7 @@
       {
         "time": "17:10 - 17:45",
         "sessions": [
-          { "talkId": "applying-cicd-patterns-to-bootc-containers", "trackId": "track1" },
+          { "talkId": "high-availability-is-not-enough", "trackId": "track1" },
           { "talkId": "pushing-the-limits-running-large-scale-hpc-workloads-on-kubernetes", "trackId": "track2" }
         ]
       },
@@ -145,7 +145,7 @@
       {
         "time": "10:15 - 10:50",
         "sessions": [
-          { "talkId": "high-availability-is-not-enough", "trackId": "track1" },
+          { "talkId": "applying-cicd-patterns-to-bootc-containers", "trackId": "track1" },
           { "talkId": "agentic-ai-in-platforms", "trackId": "track2" }
         ]
       },
@@ -207,7 +207,7 @@
         "time": "15:35 - 16:10",
         "sessions": [
           { "talkId": "one-repo-to-rule-them-all", "trackId": "track1" },
-          { "talkId": "sboom-making-sboms-play-together", "trackId": "track2" }
+          { "talkId": "lightning-talk-tba-2", "trackId": "track2" }
         ]
       },
       {
