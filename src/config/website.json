@@ -24,6 +24,7 @@
         { "text": "Agenda", "to": "/agenda" },
         { "text": "Speakers", "to": "/speakers" },
         { "text": "Sponsors", "to": "/sponsors" },
+        { "text": "Partners", "to": "/partners" },
         { "text": "Team", "to": "/team" },
         { "text": "Content Hub", "to": "/content-hub" }
       ]
@@ -120,7 +121,44 @@
         "workshop": {
           "title": "Workshops",
           "description": "Get hands-on experience with cloud-native technologies and tools in our workshops."
+        },
+        "community": {
+          "title": "Community",
+          "description": "Community isn't just a word here. Explore the open source area and connect live."
         }
+      }
+    },
+    "glance": {
+      "label": "A next-level event",
+      "days": {
+        "title": "2 days",
+        "day1": {
+          "label": "Day 1",
+          "bullets": [
+            { "text": "20 sessions", "bold": true },
+            { "text": "Coffee breaks, Lunch, Aperitivo" },
+            { "text": "Sponsor area" },
+            { "text": "Community area" }
+          ]
+        },
+        "day2": {
+          "label": "Day 2",
+          "bullets": [
+            { "text": "20 sessions", "bold": true },
+            { "text": "4 Workshops", "bold": true },
+            { "text": "Coffee breaks, Lunch" },
+            { "text": "Sponsor area" },
+            { "text": "Community area" }
+          ]
+        }
+      },
+      "areas": {
+        "title": "2 areas",
+        "image": "/images/map.webm"
+      },
+      "agendaCTA": {
+        "label": "View full agenda",
+        "url": "/agenda"
       }
     },
     "CTA": {

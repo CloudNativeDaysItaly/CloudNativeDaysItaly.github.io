@@ -71,6 +71,18 @@
     "workshop": ["octopus-deploy"],
     "partner": []
   },
+  "communities": {
+    "community": [
+      "placeholder-1", "placeholder-2", "placeholder-3", "placeholder-4", "placeholder-5"
+    ],
+    "opensource": [
+      "placeholder-1", "placeholder-2", "placeholder-3", "placeholder-4", "placeholder-5"
+    ],
+    "media": [
+      "placeholder-1", "placeholder-2", "placeholder-3", "placeholder-4", "placeholder-5",
+      "placeholder-6", "placeholder-7", "placeholder-8", "placeholder-9", "placeholder-10"
+    ]
+  },
   "location": {
     "name": "Savoia Hotel Regency",
     "street": "Via del Pilastro, 2",

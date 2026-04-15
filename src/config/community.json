@@ -1,0 +1,25 @@
+{
+  "page": {
+    "label": "Community & Open Source",
+    "title": "Thank you to our Community and Open Source Partners!",
+    "description": [
+      "As the premier community-driven event for cloud-native technologies in Italy, this is the addition we love the most.",
+      "This year, we are introducing The Community & Open Source Area: A dedicated pavilion for Community and Open Source Projects to showcase their goals, ideals, and software.",
+      "Meet the people behind the projects, learn about their work, and discover how they contribute to the cloud-native ecosystem."
+    ]
+  },
+  "tiers": {
+    "community": {
+      "title": "Community Partners",
+      "description": null
+    },
+    "opensource": {
+      "title": "Open Source Projects",
+      "description": null
+    },
+    "media": {
+      "title": "Media & Community Partners",
+      "description": "Other awesome partners contributing to share our voice and make the event a success!"
+    }
+  }
+}

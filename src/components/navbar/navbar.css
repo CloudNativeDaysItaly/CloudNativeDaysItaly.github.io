@@ -1,0 +1,12 @@
+@media (min-width: 1024px) and (max-width: 1123px) {
+  nav.navbar-desktop-links {
+    gap: 1rem;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1124px) and (max-width: 1279px) {
+  nav.navbar-desktop-links {
+    font-size: 14px;
+  }
+}

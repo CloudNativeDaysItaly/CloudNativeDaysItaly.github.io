@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import clsx from 'clsx';
 import { ArrowRight, ChevronDown, X, Menu as MenuIcon } from 'lucide-react';
+import './navbar.css';
 
 export default function Navbar({ data, editions = [] }) {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -56,7 +57,7 @@ export default function Navbar({ data, editions = [] }) {
                             <Image src={data.navbar.logo} alt="logo" width={150} height={40} priority />
                         </Link>
 
-                        <nav className="hidden lg:flex items-center gap-8">
+                        <nav className="navbar-desktop-links hidden lg:flex items-center gap-8">
                             {navLinks.map((link) => (
                                 <Link key={link.to} href={link.to} target={link.target ? link.target : "_self"} className="text-gray-800 hover:text-blue-600 transition-colors font-semibold">
                                     {link.text}
