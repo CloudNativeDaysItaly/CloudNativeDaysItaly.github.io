@@ -65,7 +65,7 @@
         "time": "12:10 - 12:25",
         "sessions": [
           { "talkId": "thanks-ai-hate-it", "trackId": "track1" },
-          { "talkId": "lightning-talk-tba-2", "trackId": "track2" }
+          { "talkId": "sboom-making-sboms-play-together", "trackId": "track2" }
         ]
       },
       {
@@ -114,7 +114,7 @@
       {
         "time": "17:10 - 17:45",
         "sessions": [
-          { "talkId": "applying-cicd-patterns-to-bootc-containers", "trackId": "track1" },
+          { "talkId": "high-availability-is-not-enough", "trackId": "track1" },
           { "talkId": "pushing-the-limits-running-large-scale-hpc-workloads-on-kubernetes", "trackId": "track2" }
         ]
       },
@@ -145,14 +145,14 @@
       {
         "time": "10:15 - 10:50",
         "sessions": [
-          { "talkId": "high-availability-is-not-enough", "trackId": "track1" },
+          { "talkId": "applying-cicd-patterns-to-bootc-containers", "trackId": "track1" },
           { "talkId": "agentic-ai-in-platforms", "trackId": "track2" }
         ]
       },
       {
         "time": "10:50 - 11:05",
         "sessions": [
-          { "talkId": "lightning-talk-tba-4", "trackId": "track1" },
+          { "talkId": "sovranita-digitale-resa-operativa-seca-come-modello", "trackId": "track1" },
           { "talkId": "from-laptop-to-cloud-deploying-an-ai-model", "trackId": "track2" }
         ]
       },
@@ -200,14 +200,14 @@
         "time": "15:20 - 15:35",
         "sessions": [
           { "talkId": "lightning-talk-tba-6", "trackId": "track1" },
-          { "talkId": "tbd-lightning-talk", "trackId": "track2" }
+          { "talkId": "building-sharing-running-and-governing-ai-agents", "trackId": "track2" }
         ]
       },
       {
         "time": "15:35 - 16:10",
         "sessions": [
           { "talkId": "one-repo-to-rule-them-all", "trackId": "track1" },
-          { "talkId": "sboom-making-sboms-play-together", "trackId": "track2" }
+          { "talkId": "lightning-talk-tba-2", "trackId": "track2" }
         ]
       },
       {
@@ -252,8 +252,8 @@
       {
         "time": "10:15 - 13:15",
         "sessions": [
-          { "talkId": "tbd-workshop-1", "trackId": "workshop1" },
-          { "talkId": "tbd-workshop-2", "trackId": "workshop2" }
+          { "talkId": "shifting-left-your-container-security", "trackId": "workshop1" },
+          { "talkId": "level-up-your-gitops-deployments-with-argo-cd-and-argo-rollouts", "trackId": "workshop2" }
         ]
       },
       {

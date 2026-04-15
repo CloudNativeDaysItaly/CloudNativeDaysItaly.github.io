@@ -43,7 +43,12 @@
     "federico-soave",
     "rabieh-fashwall",
     "riccardo-capraro",
-    "alessandro-liscio"
+    "alessandro-liscio",
+    "federico-quaglia",
+    "kostis-kapelonis",
+    "massimo-bandinelli",
+    "stephane-montri",
+    "amedeo-palopoli"
   ],
   "coreTeam": [
     "michel-murabito",
@@ -67,8 +72,8 @@
   "sponsors": {
     "silver": [],
     "main": ["sparkfabrik", "clastix", "desotech", "reevo", "seacom"],
-    "gold": ["edb", "sentinelone", "aruba-cloud", "docker"],
-    "workshop": ["octopus-deploy"],
+    "gold": ["edb", "sentinelone", "aruba-cloud", "docker", "tigera"],
+    "workshop": ["docker", "octopus-deploy"],
     "partner": []
   },
   "communities": {
