@@ -152,7 +152,7 @@
       {
         "time": "10:50 - 11:05",
         "sessions": [
-          { "talkId": "lightning-talk-tba-4", "trackId": "track1" },
+          { "talkId": "sovranita-digitale-resa-operativa-seca-come-modello", "trackId": "track1" },
           { "talkId": "from-laptop-to-cloud-deploying-an-ai-model", "trackId": "track2" }
         ]
       },
@@ -200,7 +200,7 @@
         "time": "15:20 - 15:35",
         "sessions": [
           { "talkId": "lightning-talk-tba-6", "trackId": "track1" },
-          { "talkId": "tbd-lightning-talk", "trackId": "track2" }
+          { "talkId": "building-sharing-running-and-governing-ai-agents", "trackId": "track2" }
         ]
       },
       {
@@ -252,8 +252,8 @@
       {
         "time": "10:15 - 13:15",
         "sessions": [
-          { "talkId": "tbd-workshop-1", "trackId": "workshop1" },
-          { "talkId": "tbd-workshop-2", "trackId": "workshop2" }
+          { "talkId": "shifting-left-your-container-security", "trackId": "workshop1" },
+          { "talkId": "level-up-your-gitops-deployments-with-argo-cd-and-argo-rollouts", "trackId": "workshop2" }
         ]
       },
       {
