@@ -73,7 +73,7 @@
     "silver": [],
     "main": ["sparkfabrik", "clastix", "desotech", "reevo", "seacom"],
     "gold": ["edb", "sentinelone", "aruba-cloud", "docker", "tigera"],
-    "workshop": ["octopus-deploy"],
+    "workshop": ["docker", "octopus-deploy"],
     "partner": []
   },
   "location": {

@@ -82,7 +82,7 @@ export default function PastEditionComponent({ year, initialEventData }) {
                     sponsorsByTier={initialEventData.sponsors}
                     tiersConfig={config.sponsors.tiers}
                     sectionsContent={config.sponsors}
-                    order={['main', 'gold', 'silver', 'partner']}
+                    order={['main', 'gold', 'silver', 'workshop', 'partner']}
                     isCurrent={isCurrentEvent}
                 />
 
