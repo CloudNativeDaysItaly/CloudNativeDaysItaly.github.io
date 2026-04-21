@@ -117,7 +117,6 @@ export default function C4P_Card({ data }) {
             <div className='mt-auto pt-6'>
               <Link
                 href={data.agendaUrl}
-                target='_blank'
                 className='group w-full inline-flex items-center justify-center text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105'
               >
                 View Agenda
