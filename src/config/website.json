@@ -20,7 +20,6 @@
     },
     "links": {
       "header": [
-        { "text": "Home", "to": "/" },
         { "text": "Agenda", "to": "/agenda" },
         { "text": "Speakers", "to": "/speakers" },
         { "text": "Sponsors", "to": "/sponsors" },
@@ -170,7 +169,8 @@
   "proposal": {
     "startDate": "2025-11-03T00:00:00",
     "endDate": "2026-03-06T23:59:59",
-    "url": "https://sessionize.com/cloud-native-days-italy-2026",
+    "url": "https://sessionize.com/cloud-native-days-italy-2026a",
+    "agendaUrl": "/agenda",
     "rollingSelectionText": "We evaluate proposals as they are submitted. Submitting early increases your chances of being selected as one of our first speakers!"
   },
   "tickets": {
@@ -248,8 +248,8 @@
         "class": "bg-white shadow-sm",
         "badgeClass": "bg-purple-50 text-purple-500"
       },
-      "partner": {
-        "title": "Community & Media Partners",
+      "smart": {
+        "title": "Smart",
         "class": "bg-white shadow-sm",
         "badgeClass": "bg-blue-50 text-blue-500"
       }
