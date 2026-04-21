@@ -74,25 +74,13 @@
     "main": ["sparkfabrik", "clastix", "desotech", "reevo", "seacom"],
     "gold": ["edb", "sentinelone", "aruba-cloud", "docker", "tigera"],
     "workshop": ["docker", "octopus-deploy"],
+    "smart": ["cncf"],
     "partner": []
   },
   "communities": {
-    "community": [
-      "aws-user-group",
-      "the-red-code",
-      "green-software-italy"
-    ],
-    "opensource": [
-      "liqo",
-      "sveltos",
-      "cloudnative-pg",
-      "falco",
-      "cilium"
-    ],
-    "media": [
-      "cloud-native-trento",
-      "italia-open-source"
-    ]
+    "community": ["aws-user-group", "the-red-code", "green-software-italy"],
+    "opensource": ["liqo", "sveltos", "cloudnative-pg", "falco", "cilium"],
+    "media": ["cloud-native-trento", "italia-open-source"]
   },
   "location": {
     "name": "Savoia Hotel Regency",
