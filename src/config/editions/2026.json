@@ -78,9 +78,21 @@
     "partner": []
   },
   "communities": {
-    "community": ["aws-user-group", "the-red-code", "green-software-italy"],
-    "opensource": ["liqo", "sveltos", "cloudnative-pg", "falco", "cilium"],
-    "media": ["cloud-native-trento", "italia-open-source"]
+    "community": [
+      "aws-user-group",
+      "the-red-code",
+      "green-software-italy",
+      "ctc"
+    ],
+    "opensource": [
+      "liqo",
+      "sveltos",
+      "cloudnative-pg",
+      "falco",
+      "cilium",
+      "krateo"
+    ],
+    "media": ["cloud-native-trento", "italia-open-source", "gdg-vicenza"]
   },
   "location": {
     "name": "Savoia Hotel Regency",
