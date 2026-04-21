@@ -35,7 +35,8 @@
       { "label": "Code of Conduct", "url": "/code-of-conduct", "active": true },
       { "label": "Team", "url": "/team", "active": true },
       { "label": "Agenda", "url": "/agenda", "active": true },
-      { "label": "Speakers", "url": "/speakers", "active": true }
+      { "label": "Speakers", "url": "/speakers", "active": true },
+      { "label": "Partners", "url": "/partners", "active": true }
     ],
     "icons": [
       {
