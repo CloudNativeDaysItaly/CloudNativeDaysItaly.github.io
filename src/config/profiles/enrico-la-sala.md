@@ -1,11 +1,11 @@
 ---
-id: "enrico-la-sala"
-name: "Enrico La Sala"
-role: "CTO"
-company: "hiop"
-companyUrl: "https://www.hiop.io"
-image: "/images/profiles/enrico-la-sala.webp"
-linkedin: "https://www.linkedin.com/in/enricolasala/"
+id: 'enrico-la-sala'
+name: 'Enrico La Sala'
+role: 'CTO'
+company: 'hiop'
+companyUrl: 'https://www.hiop.io'
+image: '/images/profiles/enrico-la-sala.webp'
+linkedin: 'https://www.linkedin.com/in/enricolasala/'
 ---
 
 Computer Science Engineer passionate about technology, experienced in Backend Development (Python, Java, C#), Frontend/DB Integration (Javascript, React, SQL, NoSQL) and System/DevOps Processes (AWS Solution Architect Professional Certified, Azure Certified, Linux, Git, Bash).

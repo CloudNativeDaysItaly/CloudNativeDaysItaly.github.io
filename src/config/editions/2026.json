@@ -82,7 +82,8 @@
       "aws-user-group",
       "the-red-code",
       "green-software-italy",
-      "ctc"
+      "ctc",
+      "plug"
     ],
     "opensource": [
       "liqo",
@@ -90,9 +91,15 @@
       "cloudnative-pg",
       "falco",
       "cilium",
-      "krateo"
+      "krateo",
+      "imparago"
     ],
-    "media": ["cloud-native-trento", "italia-open-source", "gdg-vicenza"]
+    "media": [
+      "cloud-native-trento",
+      "italia-open-source",
+      "gdg-vicenza",
+      "azure-meetup-veneto"
+    ]
   },
   "location": {
     "name": "Savoia Hotel Regency",
