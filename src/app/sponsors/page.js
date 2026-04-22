@@ -97,7 +97,14 @@ export const metadata = {
 
 export default async function SponsorsPage() {
   const sponsorsByTier = await getSponsorsData();
-  const displayOrder = ['main', 'gold', 'silver', 'smart', 'workshop'];
+  const displayOrder = [
+    'main',
+    'gold',
+    'silver',
+    'smart',
+    'workshop',
+    'partner',
+  ];
 
   return (
     <div className='bg-gray-50'>

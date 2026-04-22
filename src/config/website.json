@@ -249,6 +249,11 @@
         "class": "bg-white shadow-sm",
         "badgeClass": "bg-purple-50 text-purple-500"
       },
+      "partner": {
+        "title": "Community & Media Partners",
+        "class": "bg-white shadow-sm",
+        "badgeClass": "bg-blue-50 text-blue-500"
+      },
       "smart": {
         "title": "Smart",
         "class": "bg-white shadow-sm",
