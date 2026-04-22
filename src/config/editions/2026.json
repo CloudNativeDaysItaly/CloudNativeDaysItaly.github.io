@@ -70,7 +70,7 @@
     "graziano-casto"
   ],
   "sponsors": {
-    "silver": [],
+    "silver": ["live-reply"],
     "main": ["sparkfabrik", "clastix", "desotech", "reevo", "seacom"],
     "gold": ["edb", "sentinelone", "aruba-cloud", "docker", "tigera"],
     "workshop": ["docker", "octopus-deploy"],
