@@ -70,11 +70,36 @@
     "graziano-casto"
   ],
   "sponsors": {
-    "silver": [],
+    "silver": ["live-reply"],
     "main": ["sparkfabrik", "clastix", "desotech", "reevo", "seacom"],
     "gold": ["edb", "sentinelone", "aruba-cloud", "docker", "tigera"],
     "workshop": ["docker", "octopus-deploy"],
+    "smart": ["cncf"],
     "partner": []
+  },
+  "communities": {
+    "community": [
+      "aws-user-group",
+      "the-red-code",
+      "green-software-italy",
+      "ctc",
+      "plug"
+    ],
+    "opensource": [
+      "liqo",
+      "sveltos",
+      "cloudnative-pg",
+      "falco",
+      "cilium",
+      "krateo",
+      "imparago"
+    ],
+    "media": [
+      "cloud-native-trento",
+      "italia-open-source",
+      "gdg-vicenza",
+      "azure-meetup-veneto"
+    ]
   },
   "location": {
     "name": "Savoia Hotel Regency",

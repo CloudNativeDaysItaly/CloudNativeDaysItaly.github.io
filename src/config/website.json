@@ -20,10 +20,10 @@
     },
     "links": {
       "header": [
-        { "text": "Home", "to": "/" },
         { "text": "Agenda", "to": "/agenda" },
         { "text": "Speakers", "to": "/speakers" },
         { "text": "Sponsors", "to": "/sponsors" },
+        { "text": "Partners", "to": "/partners" },
         { "text": "Team", "to": "/team" },
         { "text": "Content Hub", "to": "/content-hub" }
       ]
@@ -35,7 +35,8 @@
       { "label": "Code of Conduct", "url": "/code-of-conduct", "active": true },
       { "label": "Team", "url": "/team", "active": true },
       { "label": "Agenda", "url": "/agenda", "active": true },
-      { "label": "Speakers", "url": "/speakers", "active": true }
+      { "label": "Speakers", "url": "/speakers", "active": true },
+      { "label": "Partners", "url": "/partners", "active": true }
     ],
     "icons": [
       {
@@ -120,7 +121,44 @@
         "workshop": {
           "title": "Workshops",
           "description": "Get hands-on experience with cloud-native technologies and tools in our workshops."
+        },
+        "community": {
+          "title": "Community",
+          "description": "Community isn't just a word here. Explore the open source area and connect live."
         }
+      }
+    },
+    "glance": {
+      "label": "A next-level event",
+      "days": {
+        "title": "2 days",
+        "day1": {
+          "label": "Day 1",
+          "bullets": [
+            { "text": "20 sessions", "bold": true },
+            { "text": "Coffee breaks, Lunch, Aperitivo" },
+            { "text": "Sponsor area" },
+            { "text": "Community area" }
+          ]
+        },
+        "day2": {
+          "label": "Day 2",
+          "bullets": [
+            { "text": "20 sessions", "bold": true },
+            { "text": "4 Workshops", "bold": true },
+            { "text": "Coffee breaks, Lunch" },
+            { "text": "Sponsor area" },
+            { "text": "Community area" }
+          ]
+        }
+      },
+      "areas": {
+        "title": "2 areas",
+        "image": "/images/map.webm"
+      },
+      "agendaCTA": {
+        "label": "View full agenda",
+        "url": "/agenda"
       }
     },
     "CTA": {
@@ -132,7 +170,8 @@
   "proposal": {
     "startDate": "2025-11-03T00:00:00",
     "endDate": "2026-03-06T23:59:59",
-    "url": "https://sessionize.com/cloud-native-days-italy-2026",
+    "url": "https://sessionize.com/cloud-native-days-italy-2026a",
+    "agendaUrl": "/agenda",
     "rollingSelectionText": "We evaluate proposals as they are submitted. Submitting early increases your chances of being selected as one of our first speakers!"
   },
   "tickets": {
@@ -212,6 +251,11 @@
       },
       "partner": {
         "title": "Community & Media Partners",
+        "class": "bg-white shadow-sm",
+        "badgeClass": "bg-blue-50 text-blue-500"
+      },
+      "smart": {
+        "title": "Smart",
         "class": "bg-white shadow-sm",
         "badgeClass": "bg-blue-50 text-blue-500"
       }

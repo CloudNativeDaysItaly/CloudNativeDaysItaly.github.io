@@ -54,3 +54,6 @@ coverage/
 *.history
 .next/cache/
 /public/sitemap.xml
+
+# Local context/memory files (never commit)
+context/
