@@ -25,7 +25,8 @@
         { "text": "Sponsors", "to": "/sponsors" },
         { "text": "Partners", "to": "/partners" },
         { "text": "Team", "to": "/team" },
-        { "text": "Content Hub", "to": "/content-hub" }
+        { "text": "Content Hub", "to": "/content-hub" },
+        { "text": "FAQ", "to": "/faq" }
       ]
     }
   },
