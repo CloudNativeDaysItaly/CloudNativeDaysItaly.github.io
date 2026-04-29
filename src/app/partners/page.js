@@ -4,16 +4,28 @@ import matter from 'gray-matter';
 import communityConfig from '@/config/community.json';
 import generalConfig from '@/config/website.json';
 
-const CommunityCard = ({ partner }) => {
+const PARTNER_SIZE_CLASSES = {
+  lg: {
+    wrapper: 'basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 p-3',
+    card: 'h-28 p-4',
+  },
+  md: {
+    wrapper: 'basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 p-3',
+    card: 'h-20 p-3',
+  },
+};
+
+const CommunityCard = ({ partner, size = 'lg' }) => {
+  const { wrapper, card } = PARTNER_SIZE_CLASSES[size] || PARTNER_SIZE_CLASSES.lg;
   return (
-    <div className='flex-grow-0 flex-shrink-0 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 p-3'>
+    <div className={`flex-grow-0 flex-shrink-0 ${wrapper}`}>
       <a
         href={partner.url}
         target='_blank'
         rel='noopener noreferrer'
         className='block group'
       >
-        <div className='flex items-center justify-center bg-white h-28 p-4 rounded-2xl border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1'>
+        <div className={`flex items-center justify-center bg-white ${card} rounded-2xl border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1`}>
           <img
             src={partner.logo}
             alt={partner.name}
@@ -34,6 +46,8 @@ const CommunityTierSection = ({
   extraTopMargin = false,
 }) => {
   if (!partners || partners.length === 0) return null;
+
+  const size = config?.logoSize || 'lg';
 
   return (
     <div className={`mb-16 ${extraTopMargin ? 'mt-20' : ''}`}>
@@ -56,7 +70,7 @@ const CommunityTierSection = ({
       )}
       <div className='flex flex-wrap justify-center items-center -m-3'>
         {partners.map((partner, index) => (
-          <CommunityCard key={`${tier}-${index}`} partner={partner} />
+          <CommunityCard key={`${tier}-${index}`} partner={partner} size={size} />
         ))}
       </div>
     </div>
