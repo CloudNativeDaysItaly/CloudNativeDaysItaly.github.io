@@ -11,14 +11,17 @@
   "tiers": {
     "community": {
       "title": "Community Partners",
+      "logoSize": "lg",
       "description": null
     },
     "opensource": {
       "title": "Open Source Projects",
+      "logoSize": "lg",
       "description": null
     },
     "media": {
-      "title": "Media & Community Partners",
+      "title": "Media Partners",
+      "logoSize": "md",
       "description": "Other awesome partners contributing to share our voice and make the event a success!"
     }
   }

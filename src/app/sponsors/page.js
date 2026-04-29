@@ -5,16 +5,32 @@ import config from '@/config/website.json';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
-const SponsorCard = ({ sponsor }) => {
+const SPONSOR_SIZE_CLASSES = {
+  lg: {
+    wrapper: 'basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 p-4',
+    card: 'h-40 p-6',
+  },
+  md: {
+    wrapper: 'basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 p-4',
+    card: 'h-28 p-4',
+  },
+  sm: {
+    wrapper: 'basis-1/3 sm:basis-1/4 md:basis-1/5 lg:basis-1/6 p-4',
+    card: 'h-20 p-3',
+  },
+};
+
+const SponsorCard = ({ sponsor, size = 'lg' }) => {
+  const { wrapper, card } = SPONSOR_SIZE_CLASSES[size] || SPONSOR_SIZE_CLASSES.lg;
   return (
-    <div className='flex-grow-0 flex-shrink-0 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 p-4'>
+    <div className={`flex-grow-0 flex-shrink-0 ${wrapper}`}>
       <a
         href={sponsor.url}
         target='_blank'
         rel='noopener noreferrer'
         className='block group'
       >
-        <div className='flex items-center justify-center bg-white h-40 p-6 rounded-2xl border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1'>
+        <div className={`flex items-center justify-center bg-white ${card} rounded-2xl border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1`}>
           <img
             src={sponsor.logo}
             alt={sponsor.name}
@@ -29,14 +45,17 @@ const SponsorCard = ({ sponsor }) => {
 const SponsorTierSection = ({ tier, sponsors }) => {
   if (!sponsors || sponsors.length === 0) return null;
 
+  const tierConfig = config.sponsors.tiers[tier];
+  const size = tierConfig?.logoSize || 'lg';
+
   return (
     <div className='mb-16'>
       <h2 className='text-2xl font-bold text-center text-gray-800 capitalize border-b pb-4 mb-8'>
-        {config.sponsors.tiers[tier]?.title || tier}
+        {tierConfig?.title || tier}
       </h2>
       <div className='flex flex-wrap justify-center items-center -m-4'>
         {sponsors.map((sponsor) => (
-          <SponsorCard key={sponsor.name} sponsor={sponsor} />
+          <SponsorCard key={sponsor.name} sponsor={sponsor} size={size} />
         ))}
       </div>
     </div>
@@ -99,6 +118,7 @@ export default async function SponsorsPage() {
   const sponsorsByTier = await getSponsorsData();
   const displayOrder = [
     'main',
+    'platinum',
     'gold',
     'silver',
     'smart',

@@ -72,6 +72,7 @@
   "sponsors": {
     "silver": ["adeptic-reply"],
     "main": ["sparkfabrik", "clastix", "desotech", "reevo", "seacom"],
+    "platinum": ["spectrocloud"],
     "gold": ["edb", "sentinelone", "aruba-cloud", "docker", "tigera"],
     "workshop": ["docker", "octopus-deploy"],
     "smart": ["cncf"],
@@ -83,7 +84,8 @@
       "the-red-code",
       "green-software-italy",
       "ctc",
-      "plug"
+      "plug",
+      "unibo-mobile-middleware-research-group"
     ],
     "opensource": [
       "liqo",
@@ -98,7 +100,10 @@
       "cloud-native-trento",
       "italia-open-source",
       "gdg-vicenza",
-      "azure-meetup-veneto"
+      "azure-meetup-veneto",
+      "schroedinger-hat",
+      "coderful",
+      "tlfe"
     ]
   },
   "location": {
