@@ -25,12 +25,20 @@
         "answer": "The program features 40+ sessions overall, spread across keynotes, technical talks, lightning talks, and workshops across two tracks and two days. [Check the agenda](/agenda) for the full schedule."
       },
       {
+        "question": "How do workshops work? Can I book a seat in advance?",
+        "answer": "Workshops are deep-dive, highly practical technical sessions: bring your own laptop to follow along hands-on.\n\nWorkshops are included in all tickets at no extra charge.\n\nSeats are not bookable in advance: access is first-come, first-served, with a capacity of approximately 20 seats per workshop. There are four workshops in total: two in the morning and two in the afternoon, each lasting 4 hours.\n\nWe are really proud of the quality of these workshops, led by top-tier professionals. And we are proud to include them in all tickets (unlike many other events where sessions like these would cost a significant amount on their own).\n\nDo not miss out. [Check the agenda](/agenda) for the full workshop schedule."
+      },
+      {
         "question": "Will the talks be recorded?",
         "answer": "Yes. Talks from previous editions are available on our [YouTube channel](https://www.youtube.com/@CloudNativeDaysItaly/). We plan to publish recordings from CNDI 2026 as well; join our [Telegram community](https://t.me/cloudnativedaysitaly) or follow our socials to stay updated."
       },
       {
         "question": "Is the event suitable for all experience levels?",
         "answer": "Absolutely. The program spans a wide range of topics and difficulty levels, from introductory sessions to advanced deep dives, covering cloud native, open source, and platform engineering. There is something for everyone, regardless of background or experience."
+      },
+      {
+        "question": "Will I receive a certificate of attendance?",
+        "answer": "Yes. All attendees will receive a certificate of participation at the end of the event."
       },
       {
         "question": "Where is the venue?",

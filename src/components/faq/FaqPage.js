@@ -94,7 +94,12 @@ function FaqSection({ data }) {
         {data.items.map((item, i) => (
           <AccordionItem key={i} title={item.question}>
             <p className='text-gray-600 leading-relaxed pt-3'>
-              {renderRichText(item.answer)}
+              {item.answer.split('\n\n').map((part, j) => (
+                <span key={j}>
+                  {j > 0 && <><br /><br /></>}
+                  {renderRichText(part)}
+                </span>
+              ))}
             </p>
           </AccordionItem>
         ))}
