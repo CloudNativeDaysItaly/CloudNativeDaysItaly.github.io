@@ -65,7 +65,7 @@
         "time": "12:10 - 12:25",
         "sessions": [
           { "talkId": "thanks-ai-hate-it", "trackId": "track1" },
-          { "talkId": "sboom-making-sboms-play-together", "trackId": "track2" }
+          { "talkId": "lightning-talk-tba-3", "trackId": "track2" }
         ]
       },
       {
@@ -97,7 +97,7 @@
         "time": "15:30 - 16:05",
         "sessions": [
           { "talkId": "freelens-un-progetto-open-source-italiano", "trackId": "track1" },
-          { "talkId": "tbd-talk-1", "trackId": "track2" }
+          { "talkId": "sboom-making-sboms-play-together", "trackId": "track2" }
         ]
       },
       {
@@ -152,7 +152,7 @@
       {
         "time": "10:50 - 11:05",
         "sessions": [
-          { "talkId": "sovranita-digitale-resa-operativa-seca-come-modello", "trackId": "track1" },
+          { "talkId": "open-source-made-in-italy", "trackId": "track1" },
           { "talkId": "from-laptop-to-cloud-deploying-an-ai-model", "trackId": "track2" }
         ]
       },
