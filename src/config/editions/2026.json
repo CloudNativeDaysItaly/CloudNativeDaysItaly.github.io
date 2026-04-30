@@ -46,9 +46,8 @@
     "alessandro-liscio",
     "federico-quaglia",
     "kostis-kapelonis",
-    "massimo-bandinelli",
     "stephane-montri",
-    "amedeo-palopoli"
+    "chiara-corrado"
   ],
   "coreTeam": [
     "michel-murabito",
@@ -93,14 +92,14 @@
       "cloudnative-pg",
       "falco",
       "cilium",
-      "krateo",
-      "imparago"
+      "krateo"
     ],
     "media": [
       "cloud-native-trento",
       "italia-open-source",
       "gdg-vicenza",
       "azure-meetup-veneto",
+      "imparago",
       "schroedinger-hat",
       "coderful",
       "tlfe"
