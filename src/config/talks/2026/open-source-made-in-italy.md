@@ -6,7 +6,6 @@ speakerIds:
   - chiara-corrado
 tags:
   - ITA
-  - LIGHTNING
   - SPONSORED
 level: all
 image: ''

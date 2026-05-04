@@ -6,7 +6,6 @@ speakerIds:
   - stephane-montri
 tags:
   - ENG
-  - LIGHTNING
   - SPONSORED
 level: all
 image: ''
