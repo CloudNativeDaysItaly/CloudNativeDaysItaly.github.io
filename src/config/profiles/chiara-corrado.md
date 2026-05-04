@@ -2,7 +2,7 @@
 id: "chiara-corrado"
 name: "Chiara Corrado"
 role: "Senior Software Engineer"
-company: "Aruba Software"
+company: "Aruba Cloud"
 companyUrl: "#"
 image: "/images/profiles/chiara-corrado.webp"
 linkedin: "https://linkedin.com/in/chiaracorrado/"

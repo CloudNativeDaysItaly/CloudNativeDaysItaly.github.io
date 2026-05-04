@@ -4,8 +4,9 @@ title: 'From Legacy API Gateway to Kubernetes-native API Platform: a Real-world 
 type: talk
 speakerIds:
   - luca-de-carne
+  - riccardo-atzori
 tags:
-  - BOTH
+  - ENG
 level: Intermediate
 image: ''
 video: ''
