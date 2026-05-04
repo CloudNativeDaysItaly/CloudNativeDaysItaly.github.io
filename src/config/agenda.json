@@ -89,7 +89,7 @@
       {
         "time": "15:15 - 15:30",
         "sessions": [
-          { "talkId": "lightning-talk-tba-3", "trackId": "track1" },
+          { "talkId": "cloudnativepg-da-zero-a-postgresql-in-10-minuti", "trackId": "track1" },
           { "talkId": "oops-driven-development", "trackId": "track2" }
         ]
       },
@@ -171,7 +171,7 @@
         "time": "12:10 - 12:25",
         "sessions": [
           { "talkId": "human-kubernetes-sopravvivere-a-un-minuto-di-chaos", "trackId": "track1" },
-          { "talkId": "lightning-talk-tba-5", "trackId": "track2" }
+          { "talkId": "from-visibility-to-runtime-securing-cloudnative-workloads-with-aipowered-cnapp", "trackId": "track2" }
         ]
       },
       {
