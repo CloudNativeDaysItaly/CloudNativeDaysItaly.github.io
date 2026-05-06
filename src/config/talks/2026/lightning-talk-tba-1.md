@@ -1,9 +1,9 @@
 ---
 id: lightning-talk-tba-1
-title: 'Lightning talk - Tigera'
+title: 'Intro to Calico Observability'
 type: lightning-talk
 speakerIds:
-  - placeholder
+  - dillon-barry
 tags:
   - ITA
   - SPONSORED
