@@ -1,11 +1,12 @@
 ---
 id: lightning-talk-tba-1
-title: 'Lightning Talk TBA'
+title: 'Intro to Calico Observability'
 type: lightning-talk
 speakerIds:
-  - placeholder
+  - dillon-barry
 tags:
   - ITA
+  - SPONSORED
 level: all
 image: ''
 video: ''

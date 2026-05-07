@@ -4,7 +4,7 @@ title: 'CloudNativePG: da zero a PostgreSQL in 10 minuti'
 type: lightning-talk
 speakerIds:
   - francesco-canovai
-  - marco-nenciarini
+  - niccolo-fei
 tags:
   - ITA
   - SPONSORED
