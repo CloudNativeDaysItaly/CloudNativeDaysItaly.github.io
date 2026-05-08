@@ -46,7 +46,7 @@
       {
         "time": "10:50 - 11:05",
         "sessions": [
-          { "talkId": "lightning-talk-tba-1", "trackId": "track1" },
+          { "talkId": "intro-to-calico-observability", "trackId": "track1" },
           { "talkId": "beyond-tool-sprawl", "trackId": "track2" }
         ]
       },

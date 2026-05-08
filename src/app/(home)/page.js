@@ -165,7 +165,7 @@ export default async function HomePage() {
         sponsorsByTier={sponsorsData}
         tiersConfig={config.sponsors.tiers}
         sectionsContent={config.sponsors}
-        order={['main', 'platinum', 'gold', 'silver', 'smart', 'workshop', 'partner']}
+        order={['main', 'platinum', 'gold', 'silver', 'smart', 'workshop', 'techPartner', 'partner']}
         isCurrent={true}
       />
 

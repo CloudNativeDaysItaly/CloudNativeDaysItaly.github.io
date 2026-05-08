@@ -123,6 +123,7 @@ export default async function SponsorsPage() {
     'silver',
     'smart',
     'workshop',
+    'techPartner',
     'partner',
   ];
 

@@ -76,10 +76,11 @@
   ],
   "sponsors": {
     "silver": ["adeptic-reply"],
-    "main": ["sparkfabrik", "clastix", "desotech", "reevo", "seacom"],
+    "main": ["sparkfabrik", "clastix", "desotech", "seacom", "reevo"],
     "platinum": ["spectrocloud"],
     "gold": ["edb", "sentinelone", "aruba-cloud", "docker", "tigera"],
     "workshop": ["docker", "octopus-deploy"],
+    "techPartner": ["emblemalive", "reevo"],
     "smart": ["cncf"],
     "partner": []
   },

@@ -256,6 +256,12 @@
         "class": "bg-white shadow-sm",
         "badgeClass": "bg-purple-50 text-purple-500"
       },
+      "techPartner": {
+        "title": "Tech Partner",
+        "logoSize": "md",
+        "class": "bg-white shadow-sm",
+        "badgeClass": "bg-cyan-50 text-cyan-600"
+      },
       "partner": {
         "title": "Community & Media Partners",
         "logoSize": "lg",
