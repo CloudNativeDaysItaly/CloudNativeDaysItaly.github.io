@@ -5,7 +5,7 @@ type: talk
 speakerIds:
   - jacopo-bufalino
 tags:
-  - BOTH
+  - ENG
 level: Intermediate
 image: ''
 video: ''
