@@ -6,7 +6,7 @@ speakerIds:
   - luca-de-carne
   - riccardo-atzori
 tags:
-  - ENG
+  - ITA
 level: Intermediate
 image: ''
 video: ''
