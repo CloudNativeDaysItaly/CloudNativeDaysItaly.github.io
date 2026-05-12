@@ -150,14 +150,7 @@
         ]
       },
       {
-        "time": "10:50 - 11:05",
-        "sessions": [
-          { "talkId": "open-source-made-in-italy", "trackId": "track1" },
-          { "talkId": "from-laptop-to-cloud-deploying-an-ai-model", "trackId": "track2" }
-        ]
-      },
-      {
-        "time": "11:05 - 11:35",
+        "time": "10:50 - 11:35",
         "sessions": [{ "title": "Coffee Break", "type": "break" }]
       },
       {
@@ -170,7 +163,7 @@
       {
         "time": "12:10 - 12:25",
         "sessions": [
-          { "talkId": "human-kubernetes-sopravvivere-a-un-minuto-di-chaos", "trackId": "track1" },
+          { "talkId": "open-source-made-in-italy", "trackId": "track1" },
           { "talkId": "from-visibility-to-runtime-securing-cloudnative-workloads-with-aipowered-cnapp", "trackId": "track2" }
         ]
       },
