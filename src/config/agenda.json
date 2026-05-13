@@ -72,7 +72,7 @@
         "time": "12:25 - 13:00",
         "sessions": [
           { "talkId": "fix-production-rollouts-on-the-fly-with-agentic-aiops", "trackId": "track1" },
-          { "talkId": "gpu-is-not-monolithic-packing-llms-with-migs-on-kubernetes", "trackId": "track2" }
+          { "talkId": "tbd-talk-1", "trackId": "track2" }
         ]
       },
       {
