@@ -4,6 +4,29 @@
     "title": "FAQ 🍕",
     "description": "Find answers to the most common questions about Cloud Native Days Italy 2026, and everything you need to plan your visit to Bologna."
   },
+  "alert": {
+    "title": "Transport Strike Alert - Monday, May 18",
+    "intro": "Quick heads-up: **national strike in Italy on Monday** affecting trains, buses, and airport transit in Bologna.",
+    "sections": [
+      {
+        "label": "Key info",
+        "items": [
+          "Trains: [all-day strike](https://www.trenitalia.com/it/informazioni/treni-garantiti-incasodisciopero.html) with [limited service](https://www.trenitalia.com/content/dam/trenitalia/allegati/info/treni-garantiti/TABELLA_A_Treni_garantiti_DPLH.pdf) between 6-9 AM and 6-9 PM",
+          "Bologna buses: strike during 8:30 AM-4:30 PM and 7:30 PM-EOD",
+          "Marconi Express: all-day strike, uncertain service"
+        ]
+      },
+      {
+        "label": "Recommendations",
+        "items": [
+          "**Arrive early** if traveling Monday",
+          "Use [Cotabo app](https://www.cotabo.it/) for taxis when in Bologna",
+          "Build in **extra time**"
+        ]
+      }
+    ],
+    "closing": "Already in Bologna on Sunday before 21:00? You're all set."
+  },
   "faq": {
     "label": "Frequently Asked Questions",
     "eyebrow": "Did you try turning it off and on again?",

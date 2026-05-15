@@ -15,8 +15,41 @@ import {
   UtensilsCrossed,
   Star,
   Coffee,
+  TriangleAlert,
 } from 'lucide-react';
 
+/* ── Alert Banner ────────────────────────────────────── */
+function AlertBanner({ alert }) {
+  if (!alert) return null;
+
+  return (
+    <div className='max-w-3xl mx-auto mb-12 bg-amber-50 border border-amber-300 rounded-xl p-6'>
+      <div className='flex items-center gap-3 mb-3'>
+        <TriangleAlert className='h-5 w-5 text-amber-600 flex-shrink-0' />
+        <h2 className='font-bold text-amber-900 text-lg'>{alert.title}</h2>
+      </div>
+      <p className='text-amber-800 text-sm mb-4'>{renderRichText(alert.intro)}</p>
+      {alert.sections.map((section, i) => (
+        <div key={i} className='mb-3'>
+          <p className='font-semibold text-amber-900 text-sm mb-1'>{section.label}:</p>
+          <ul className='space-y-1'>
+            {section.items.map((item, j) => (
+              <li key={j} className='text-amber-800 text-sm flex gap-2'>
+                <span className='mt-0.5 text-amber-500'>-</span>
+                <span>{renderRichText(item)}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      {alert.closing && (
+        <p className='mt-4 text-amber-800 text-sm font-medium'>{alert.closing}</p>
+      )}
+    </div>
+  );
+}
+
+/* ── FAQ section ─────────────────────────────────────── */
 const transportIconMap = { Car, Plane, Train, Bus, MapPin };
 const infoIconMap = { Cloud, Landmark, UtensilsCrossed };
 const hotelIconMap = { Star, Coffee };
@@ -338,6 +371,9 @@ export default function FaqPage({ data }) {
   return (
     <div className='bg-gray-50'>
       <div className='container mx-auto max-w-7xl px-4 py-16 lg:py-24'>
+        {/* Alert */}
+        <AlertBanner alert={data.alert} />
+
         {/* Header */}
         <div className='text-center max-w-3xl mx-auto mb-16'>
           <span className='text-sm font-bold text-blue-600 uppercase tracking-wider'>
