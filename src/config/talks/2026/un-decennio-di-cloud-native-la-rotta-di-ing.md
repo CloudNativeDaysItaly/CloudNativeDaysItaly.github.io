@@ -1,5 +1,5 @@
 ---
-id: lightning-talk-tba-6
+id: un-decennio-di-cloud-native-la-rotta-di-ing
 title: 'Un decennio di Cloud Native: la rotta di ING'
 type: lightning-talk
 speakerIds:

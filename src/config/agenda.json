@@ -65,14 +65,14 @@
         "time": "12:10 - 12:25",
         "sessions": [
           { "talkId": "thanks-ai-hate-it", "trackId": "track1" },
-          { "talkId": "lightning-talk-tba-3", "trackId": "track2" }
+          { "talkId": "what-image-based-systems-taught-us-about-linux-distributions", "trackId": "track2" }
         ]
       },
       {
         "time": "12:25 - 13:00",
         "sessions": [
           { "talkId": "fix-production-rollouts-on-the-fly-with-agentic-aiops", "trackId": "track1" },
-          { "talkId": "tbd-talk-1", "trackId": "track2" }
+          { "talkId": "osservabilita-by-design-con-otel-weaver", "trackId": "track2" }
         ]
       },
       {
@@ -192,7 +192,7 @@
       {
         "time": "15:20 - 15:35",
         "sessions": [
-          { "talkId": "lightning-talk-tba-6", "trackId": "track1" },
+          { "talkId": "un-decennio-di-cloud-native-la-rotta-di-ing", "trackId": "track1" },
           { "talkId": "building-sharing-running-and-governing-ai-agents", "trackId": "track2" }
         ]
       },

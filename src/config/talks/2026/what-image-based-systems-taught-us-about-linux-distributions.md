@@ -1,5 +1,5 @@
 ---
-id: lightning-talk-tba-3
+id: what-image-based-systems-taught-us-about-linux-distributions
 title: 'What Image-Based Systems Taught Us About Linux Distributions: Lessons From Kairos and Why We Built Hadron'
 type: lightning-talk
 speakerIds:
