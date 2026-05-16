@@ -57,3 +57,4 @@ coverage/
 
 # Local context/memory files (never commit)
 context/
+_EXPORT/
