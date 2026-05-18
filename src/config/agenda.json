@@ -215,7 +215,7 @@
         "time": "17:00 - 17:35",
         "sessions": [
           { "talkId": "platform-engineering-and-ai-agents", "trackId": "track1" },
-          { "talkId": "green-prompting-designing-ai-interactions-with-sustainability-in-mind", "trackId": "track2" }
+          { "talkId": "east-west-mtls-no-sidecars", "trackId": "track2" }
         ]
       },
       {
