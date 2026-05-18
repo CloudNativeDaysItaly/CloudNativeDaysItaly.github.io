@@ -200,7 +200,7 @@
         "time": "15:35 - 16:10",
         "sessions": [
           { "talkId": "one-repo-to-rule-them-all", "trackId": "track1" },
-          { "talkId": "green-prompting-designing-ai-interactions-with-sustainability-in-mind", "trackId": "track2" }
+          { "talkId": "from-cloud-native-to-agentic-applications", "trackId": "track2" }
         ]
       },
       {
@@ -215,7 +215,7 @@
         "time": "17:00 - 17:35",
         "sessions": [
           { "talkId": "platform-engineering-and-ai-agents", "trackId": "track1" },
-          { "talkId": "from-cloud-native-to-agentic-applications", "trackId": "track2" }
+          { "talkId": "green-prompting-designing-ai-interactions-with-sustainability-in-mind", "trackId": "track2" }
         ]
       },
       {
