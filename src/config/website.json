@@ -333,7 +333,7 @@
       "role": ""
     },
     "prospectus": {
-      "active": false,
+      "active": true,
       "url": "/prospectus/cloudnativedays-italy-2027-sponsorship-prospectus.pdf",
       "label": "Download Sponsorship Prospectus",
       "cover": "/prospectus/sponsorship_prospectus_cover.webp"

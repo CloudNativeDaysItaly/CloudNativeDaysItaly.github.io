@@ -98,16 +98,18 @@ export default function TicketsSection({ data }) {
       <div className='mx-auto max-w-[1200px] px-6'>
         <span className='stamp'>Tickets</span>
         <h2 className='section-heading mt-6'>Be part of it</h2>
-        {isComingSoon && (
+        {isComingSoon ? (
           <p className='mt-6 max-w-2xl text-lg text-ink-muted'>
             {data.comingSoonText}
           </p>
+        ) : (
+          <div className='mt-10 grid grid-cols-1 gap-6 md:grid-cols-3'>
+            {data.type.map((ticket) => (
+              <TicketCard key={ticket.id} ticket={ticket} />
+            ))}
+          </div>
         )}
-        <div className='mt-10 grid grid-cols-1 gap-6 md:grid-cols-3'>
-          {data.type.map((ticket) => (
-            <TicketCard key={ticket.id} ticket={ticket} />
-          ))}
-        </div>
+
         <div className='mt-10'>
           <Link
             href={data.link}
