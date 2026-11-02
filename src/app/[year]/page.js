@@ -3,7 +3,9 @@ import path from 'path';
 import matter from 'gray-matter';
 import { notFound } from 'next/navigation';
 import config from '@/config/website.json';
+import agendaConfig from '@/config/agenda.json';
 import PastEditionComponent from './PastEditionComponent';
+import { getAgendaDateBounds } from '@/lib/agendaDate';
 
 async function getEventData(year) {
     try {
@@ -138,13 +140,16 @@ export default async function YearPage({ params }) {
     }
 
     const siteUrl = config.general.event.website;
+    const agendaDateBounds = year === config.general.edition.toString()
+        ? getAgendaDateBounds(agendaConfig.days)
+        : null;
 
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Event",
         "name": eventData.name,
-        "startDate": eventData.editionData.date,
-        "endDate": eventData.editionData.endDate || eventData.editionData.date,
+        "startDate": agendaDateBounds?.startDate || eventData.editionData.date,
+        ...(agendaDateBounds && { "endDate": agendaDateBounds.endDate }),
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "eventStatus": "https://schema.org/EventScheduled",
         "location": {

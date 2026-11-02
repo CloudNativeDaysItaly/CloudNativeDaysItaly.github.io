@@ -7,6 +7,7 @@ import AgendaView from "@/components/agenda/agenda-view";
 import { CalendarClock, ArrowLeft, FileText, Lightbulb, CheckCircle, Clock, Mic, Users, Wrench, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { format, isBefore, isAfter, parseISO } from 'date-fns';
+import { formatAgendaDateRange } from '@/lib/agendaDate';
 
 async function getPastTalksPreview() {
     try {
@@ -38,7 +39,7 @@ async function getAgendaData() {
     const agendaConfig = JSON.parse(await fs.readFile(agendaConfigPath, 'utf8'));
 
     if (!agendaConfig.isPublished) {
-        return { isReady: false, agenda: null };
+        return { isReady: false, agenda: agendaConfig };
     }
 
     const currentYear = config.general.edition.toString();
@@ -65,7 +66,7 @@ async function getAgendaData() {
             talksMap.set(talkId, { ...data, id: talkId, abstract });
         }
     } catch {
-        return { isReady: false, agenda: null };
+        return { isReady: false, agenda: agendaConfig };
     }
 
     for (const dayId in agendaConfig.schedule) {
@@ -92,10 +93,11 @@ export const metadata = {
     description: `Talks, workshops and breaks of ${EVENT}: the full schedule, day by day.`,
 };
 
-const ComingSoonAgenda = ({ proposalConfig, infoConfig, pastTalks }) => {
+const ComingSoonAgenda = ({ agenda, proposalConfig, infoConfig, pastTalks }) => {
     const now = new Date();
     const startDate = parseISO(proposalConfig.startDate);
     const endDate = parseISO(proposalConfig.endDate);
+    const agendaDateRange = formatAgendaDateRange(agenda?.days);
 
     let c4pStatus = 'closed';
     if (isBefore(now, startDate)) c4pStatus = 'comingsoon';
@@ -113,9 +115,7 @@ const ComingSoonAgenda = ({ proposalConfig, infoConfig, pastTalks }) => {
             />
             <div className="relative z-10 mx-auto max-w-[1200px] px-6 py-16 lg:py-24">
                 <div className="max-w-3xl">
-                    {/* Stessa riga di agenda-view.js: date a mano finché il
-                        secondo giorno non è confermato in config. */}
-                    <span className="stamp">May 20-21, 2027</span>
+                    {agendaDateRange && <span className="stamp">{agendaDateRange}</span>}
                     <h1 className="section-heading mt-6">
                         Agenda Coming Soon
                     </h1>
@@ -192,7 +192,7 @@ export default async function AgendaPage() {
 
     if (!isReady) {
         const pastTalks = await getPastTalksPreview();
-        return <ComingSoonAgenda proposalConfig={config.proposal} infoConfig={config.info} pastTalks={pastTalks} />;
+        return <ComingSoonAgenda agenda={agenda} proposalConfig={config.proposal} infoConfig={config.info} pastTalks={pastTalks} />;
     }
 
     return (

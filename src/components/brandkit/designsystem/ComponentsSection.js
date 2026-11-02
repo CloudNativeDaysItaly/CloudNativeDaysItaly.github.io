@@ -1,5 +1,7 @@
 import { ArrowRight, Calendar, MapPin } from 'lucide-react';
 import config from '@/config/website.json';
+import agendaConfig from '@/config/agenda.json';
+import { formatAgendaDateRange } from '@/lib/agendaDate';
 import BecomeSponsorBox from '@/components/sponsor/BecomeSponsorBox';
 import BrandRings from '@/components/decor/BrandRings';
 import Metrics from '@/components/metrics/metrics';
@@ -21,7 +23,7 @@ const PANEL_ITEMS = ['Agenda', 'Speakers', 'Content hub', 'Brand & Media Kit'];
 
 const TIMELINE = [
   { year: '2026', title: 'Bologna, second edition', text: '285 attendees and a bigger room.' },
-  { year: '2027', title: 'Bologna, third edition', text: '20 May, Savoia Hotel Regency.', live: true },
+  { year: '2027', title: 'Bologna, third edition', text: `${formatAgendaDateRange(agendaConfig.days)}, ${config.hero.venue}.`, live: true },
 ];
 
 export default function ComponentsSection() {

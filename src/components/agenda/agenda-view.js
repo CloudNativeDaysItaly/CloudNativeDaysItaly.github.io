@@ -7,6 +7,7 @@ import Link from 'next/link';
 import clsx from 'clsx';
 import { Clock, MapPin, Coffee, Utensils, Mic, Users, Wrench, Star, Zap, Gem, Rocket, Sunset, Pizza } from 'lucide-react';
 import DecorLayer from '@/components/decor/DecorLayer';
+import { formatAgendaDateRange } from '@/lib/agendaDate';
 
 const PlaceholderCard = () => (
     <div className="min-h-[150px] border-2 border-dashed border-ink/20 h-full" />
@@ -68,6 +69,7 @@ const SessionCard = ({ session, tracks }) => {
 
 export default function AgendaView({ agenda }) {
     const [selectedDayId, setSelectedDayId] = useState(agenda.days[0].id);
+    const agendaDateRange = formatAgendaDateRange(agenda.days);
 
     const schedule = agenda.schedule[selectedDayId] || [];
     const allTracks = agenda.tracks || [];
@@ -99,11 +101,7 @@ export default function AgendaView({ agenda }) {
             />
             <div className="relative z-10 mx-auto max-w-[1200px] px-6 py-16 lg:py-24">
                 <div className="max-w-3xl">
-                    {/* Date a mano finché non sono confermate: `editions/2027.json`
-                        ne dichiara una sola e `agenda.json` porta ancora i giorni
-                        del 2026. Quando il secondo giorno è certo, la fonte diventa
-                        la config e questa riga sparisce. */}
-                    <span className="stamp">May 20-21, 2027</span>
+                    {agendaDateRange && <span className="stamp">{agendaDateRange}</span>}
                     <h1 className="section-heading mt-6">Agenda</h1>
                     <p className="mt-4 text-lg text-ink-muted">
                         Explore our schedule of talks, workshops, and networking opportunities. Select a day to view the detailed timeline.

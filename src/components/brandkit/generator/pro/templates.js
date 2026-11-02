@@ -25,6 +25,7 @@ import {
   drawSpeakersBlock,
   pizzaPoint,
 } from './helpers';
+import { EVENT } from '../event';
 
 
 /* ── Duo: la seconda foto ─────────────────────────────────────────────
@@ -71,7 +72,7 @@ export const SPEAKER = {
     name: 'Serena Sensini',
     roles: ['Innovation & Emerging Technologies Leader at Dedalus', 'Writer at Apogeo | Blogger at TheRedCode.it'],
   }],
-  date: '20 May 2027',
+  date: EVENT.date,
   city: 'Bologna',
 };
 
@@ -82,7 +83,7 @@ export const SPEAKER_LONG = {
     name: 'Giuseppe Vincenzo Abbaticchio',
     roles: ['Head of Platform Engineering and Cloud Operations at Wolters Kluwer'],
   }],
-  date: '20 May 2027',
+  date: EVENT.date,
   city: 'Bologna',
 };
 
@@ -93,14 +94,14 @@ export const SPEAKER_DUO = {
     { name: 'Giulio Puri', roles: ['Sr Solutions Engineer at Sysdig'] },
     { name: 'Andrea Vivaldi', roles: ['Sr Customer Solution Architect at Sysdig'] },
   ],
-  date: '20 May 2027',
+  date: EVENT.date,
   city: 'Bologna',
 };
 
 export const SPONSOR = {
   tier: 'GOLD SPONSOR',
   company: 'Clastix',
-  date: '20 May 2027',
+  date: EVENT.date,
   city: 'Bologna',
   venue: 'Savoia Hotel Regency, Bologna',
 };
