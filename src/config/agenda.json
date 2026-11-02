@@ -2,19 +2,14 @@
   "isPublished": true,
   "days": [
     {
-      "id": "conference-day-1",
-      "name": "Conference Day 1",
-      "date": "2026-05-18"
-    },
-    {
-      "id": "conference-day-2",
-      "name": "Conference Day 2",
-      "date": "2026-05-19"
-    },
-    {
       "id": "workshop-day",
       "name": "Workshop Day",
-      "date": "2026-05-19"
+      "date": "2027-05-19"
+    },
+        {
+      "id": "conference-day",
+      "name": "Conference Day",
+      "date": "2027-05-20"
     }
   ],
   "tracks": [
@@ -24,7 +19,7 @@
     { "id": "workshop2", "name": "Workshop 2", "room": "Sala Workshop 2" }
   ],
   "schedule": {
-    "conference-day-1": [
+    "conference-day": [
       {
         "time": "09:00 - 09:45",
         "sessions": [{ "title": "Check-in & Registration", "type": "break" }]

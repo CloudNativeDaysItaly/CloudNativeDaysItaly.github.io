@@ -15,7 +15,9 @@ import CommunityStrip from '@/components/community/CommunityStrip';
 import FaqTeaser from '@/components/faq/FaqTeaser';
 import config from '@/config/website.json';
 import faqConfig from '@/config/faq.json';
+import agendaConfig from '@/config/agenda.json';
 import Venue from '@/components/venue/venue';
+import { formatAgendaDateRange, getAgendaDateBounds } from '@/lib/agendaDate';
 
 // Communities e progetti OS presenti all'evento, per la strip in home
 // (wireframe: 11-community-partners). I md vivono in config/communities.
@@ -168,6 +170,17 @@ export default async function HomePage() {
   const eventCommunities = await getEventCommunities(currentEdition);
   const faqTeaserQuestions = (faqConfig.faq?.items || []).slice(0, 4);
   const siteUrl = config.general.event.website;
+  const agendaDateRange = formatAgendaDateRange(agendaConfig.days);
+  const agendaDateBounds = getAgendaDateBounds(agendaConfig.days);
+  const firstAgendaDate = agendaDateBounds?.startDate;
+  const countdownTime = config.hero.countDown?.split('T')[1];
+  const heroData = {
+    ...config.hero,
+    badgeDate: agendaDateRange || config.hero.badgeDate,
+    countDown: firstAgendaDate && countdownTime
+      ? `${firstAgendaDate}T${countdownTime}`
+      : config.hero.countDown,
+  };
 
   const convertToISOWithTimezone = (dateString) => {
     const date = new Date(dateString);
@@ -184,8 +197,8 @@ export default async function HomePage() {
     name:
       currentEdition.name ||
       `${config.general.event.name} ${config.general.edition}`,
-    startDate: currentEdition.date,
-    endDate: currentEdition.endDate || currentEdition.date,
+    startDate: agendaDateBounds?.startDate || currentEdition.date,
+    ...(agendaDateBounds && { endDate: agendaDateBounds.endDate }),
     eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     eventStatus: 'https://schema.org/EventScheduled',
     location: {
@@ -222,7 +235,7 @@ export default async function HomePage() {
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <Hero data={config.hero} />
+      <Hero data={heroData} />
       {previousStats && (
         <Metrics
           items={[
