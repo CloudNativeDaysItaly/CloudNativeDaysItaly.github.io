@@ -341,9 +341,10 @@
       "label": "Download Sponsorship Prospectus",
       "cover": "/prospectus/sponsorship_prospectus_cover.webp"
     },
-    "transparency": {
-      "url": "/transparency/cloudnativedays-italy-2026-transparency-report.pdf",
-      "label": "Download Transparency Report"
+    "transparencyNote": {
+      "text": "Curious how the 2026 edition went?",
+      "label": "Read the transparency report",
+      "url": "/2026#transparency-report"
     },
     "tiers": {
       "main": {
