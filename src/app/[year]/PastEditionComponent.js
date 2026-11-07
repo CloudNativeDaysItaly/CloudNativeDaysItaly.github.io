@@ -8,6 +8,7 @@ import PersonCard from '@/components/people/PersonCard';
 import Sponsors from '@/components/sponsor/sponsor';
 import ContentHub from '@/components/ContentHub/ContentHub';
 import OpenStreetMapEmbed from '@/components/maps/OpenStreetMapEmbed';
+import TransparencyReport from '@/components/transparency/TransparencyReport';
 
 // Griglia loghi community/open source/media partner di un'edizione passata
 const CommunityTierSection = ({ tierKey, partners }) => {
@@ -88,6 +89,8 @@ export default function PastEditionComponent({ year, initialEventData }) {
           speakersCount={speakersCount}
           sponsorsCount={sponsorsCount}
         />
+
+        <TransparencyReport report={initialEventData.transparencyReport} year={year} />
 
         <ContentHub
           talks={initialEventData.talks}

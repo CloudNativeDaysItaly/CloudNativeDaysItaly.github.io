@@ -187,6 +187,23 @@ export default async function SponsorsPage() {
           contactEmail={config.sponsors.contactEmail}
           className='mt-16'
         />
+
+        {config.sponsors.transparencyNote && (
+          // Card a griglia: bianca, tutta cliccabile, si solleva in hover
+          // (regola del brand kit). Più stretta e staccata dalla card gialla.
+          <Link
+            href={config.sponsors.transparencyNote.url}
+            className='card-pop group mx-auto mt-16 flex max-w-3xl flex-col items-start gap-4 bg-white p-8 transition-all duration-100 hover:-translate-x-[2px] hover:-translate-y-[2px] hover:shadow-pop sm:flex-row sm:items-center sm:justify-between'
+          >
+            <span className='font-display text-2xl uppercase text-ink'>
+              {config.sponsors.transparencyNote.text}
+            </span>
+            <span className='inline-flex items-center whitespace-nowrap text-sm font-bold uppercase tracking-wide text-ink group-hover:text-brand-magenta'>
+              {config.sponsors.transparencyNote.label}
+              <ArrowRight className='ml-2 h-5 w-5 transition-transform group-hover:translate-x-1' />
+            </span>
+          </Link>
+        )}
       </div>
     </div>
   );

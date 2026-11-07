@@ -5,7 +5,7 @@ import Link from 'next/link';
 // prospectus a destra. Usato in home dentro la vetrina sponsor e sulla
 // pagina /sponsors: un solo posto da modificare.
 export default function BecomeSponsorBox({ content, contactEmail, className = '' }) {
-  const { become, prospectus, transparency } = content;
+  const { become, prospectus } = content;
   if (!become) return null;
 
   const cover = prospectus?.cover;
@@ -14,24 +14,24 @@ export default function BecomeSponsorBox({ content, contactEmail, className = ''
   return (
     <div
       id='become-a-sponsor'
-      className={`card-pop grid grid-cols-1 gap-8 bg-brand-yellow p-8 shadow-pop-lg lg:grid-cols-[1.1fr_1fr] lg:items-center lg:p-12 ${className}`}
+      className={`card-pop grid grid-cols-1 gap-8 bg-brand-yellow p-8 shadow-pop-lg lg:grid-cols-[2fr_1fr] lg:items-center lg:p-12 ${className}`}
     >
       <div>
         <span className='stamp'>We need you</span>
         <h2 className='section-heading mt-6'>{become.title}</h2>
         <p className='mt-4 max-w-2xl text-ink-soft'>{become.description}</p>
-        <div className='mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center'>
-          <Link className='btn-pop btn-pop-primary' href={`mailto:${contactEmail}`}>
+        <div className='mt-8 flex flex-wrap items-center gap-4'>
+          <Link className='btn-pop btn-pop-primary w-full sm:w-auto sm:whitespace-nowrap' href={`mailto:${contactEmail}`}>
             Contact Us
           </Link>
-          {transparency?.url && (
+          {prospectusReady && (
             <a
-              href={transparency.url}
+              href={prospectus.url}
               target='_blank'
               rel='noopener noreferrer'
-              className='btn-pop btn-pop-secondary'
+              className='btn-pop btn-pop-secondary w-full sm:w-auto sm:whitespace-nowrap'
             >
-              {transparency.label}
+              {prospectus.label}
             </a>
           )}
         </div>
@@ -46,15 +46,13 @@ export default function BecomeSponsorBox({ content, contactEmail, className = ''
               href={prospectus.url}
               target='_blank'
               rel='noopener noreferrer'
-              className='card-pop group block max-w-[420px] overflow-hidden p-2 shadow-pop-lg transition-all duration-100 hover:-translate-x-[2px] hover:-translate-y-[2px] hover:shadow-[8px_8px_0_0_#111111]'
+              className='card-pop group block max-w-[300px] overflow-hidden p-2 shadow-pop-lg transition-all duration-100 hover:-translate-x-[2px] hover:-translate-y-[2px] hover:shadow-[8px_8px_0_0_#111111]'
             >
-              <img src={cover} alt={prospectus.label} className='block w-full' />
-              <span className='mt-2 flex items-center justify-center py-1 text-sm font-bold uppercase tracking-wide text-ink'>
-                {prospectus.label}
-              </span>
+              {/* Tagliata ai lati (4:3) per lasciare spazio ai bottoni su una riga */}
+              <img src={cover} alt={prospectus.label} className='block aspect-[4/3] w-full object-cover' />
             </a>
           ) : (
-            <div className='card-pop relative max-w-[420px] overflow-hidden p-2 shadow-pop-lg'>
+            <div className='card-pop relative max-w-[300px] overflow-hidden p-2 shadow-pop-lg'>
               <img src={cover} alt='Sponsorship prospectus' className='block w-full' />
               <span className='absolute left-4 top-4 border-pop border-ink bg-white px-2 py-0.5 text-xs font-bold uppercase text-brand-blue'>
                 Soon

@@ -173,14 +173,17 @@
       "images": [
         {
           "src": "/images/cndteam-2024.webp",
+          "year": "2024",
           "alt": "KCD Italy 2024"
         },
         {
           "src": "/images/cndteam-2025.webp",
+          "year": "2025",
           "alt": "Cloud Native Days Italy 2025"
         },
         {
           "src": "/images/cndteam-2026.webp",
+          "year": "2026",
           "alt": "Cloud Native Days Italy 2026"
         }
       ]
@@ -325,7 +328,7 @@
       "title": "Our Sponsors",
       "description": "Thank you to our amazing sponsors who make this event possible!"
     },
-    "contactEmail": "org@cloudnativedaysitaly.org",
+    "contactEmail": "sponsor@cloudnativedaysitaly.org",
     "testimonial": {
       "active": false,
       "quote": "",
@@ -338,9 +341,10 @@
       "label": "Download Sponsorship Prospectus",
       "cover": "/prospectus/sponsorship_prospectus_cover.webp"
     },
-    "transparency": {
-      "url": "/transparency/cloudnativedays-italy-2026-transparency-report.pdf",
-      "label": "Download Transparency Report"
+    "transparencyNote": {
+      "text": "Curious how the 2026 edition went?",
+      "label": "Read the transparency report",
+      "url": "/2026#transparency-report"
     },
     "tiers": {
       "main": {

@@ -4,6 +4,13 @@
   "description": "Cloud Native Days (CND) Italy is a local, community-organized event that brings together adopters and technologists from open source and cloud native communities. This is the fourth edition in Italy (formerly known as KCD Italy), aiming to bring the community together. The event provides a platform for professionals and experts from all levels and backgrounds to learn, network, and share their knowledge about cloud-native technologies.",
   "headerVideo": "https://www.youtube.com/embed/RFf1GNm7qJQ",
   "thankyou": "Thank you for joining us at Cloud Native Days Italy 2026! We hope you enjoyed the event and gained valuable insights into the cloud native ecosystem. Stay tuned for updates on future events and community activities.",
+  "transparencyReport": {
+    "title": "Transparency report",
+    "description": "Who joined us, where they came from and how they rated the sessions. The full picture of the 2026 edition, in one document.",
+    "url": "/transparency/cloudnativedays-italy-2026-transparency-report.pdf",
+    "label": "Download the report",
+    "cover": "/transparency/transparency-report-cover.webp"
+  },
   "metrics": {
     "attendees": 285,
     "sponsors": 14
