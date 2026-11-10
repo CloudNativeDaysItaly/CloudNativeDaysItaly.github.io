@@ -137,19 +137,22 @@ export default async function SponsorsPage() {
       <DecorLayer
         items={[
           { pattern: 'cluster-c', position: 'top-right', size: 'lg' },
-          { pattern: 'halftone', position: 'top-left', size: 'lg', className: 'opacity-25' },
+          {
+            pattern: 'halftone',
+            position: 'top-left',
+            size: 'lg',
+            className: 'opacity-25',
+          },
         ]}
       />
       <div className='relative z-10 mx-auto max-w-[1200px] px-6 py-16 lg:py-24'>
         <div className='max-w-3xl'>
           <span className='stamp'>They make it possible</span>
-          <h1 className='section-heading mt-6'>
-            Thank You to Our Sponsors
-          </h1>
+          <h1 className='section-heading mt-6'>Thank You to Our Sponsors</h1>
           <p className='mt-4 text-lg text-ink-muted'>
             {config.sponsors.active.description}
           </p>
-          <div className='mt-8'>
+          <div className='mt-8 flex flex-wrap items-center gap-x-6 gap-y-4'>
             {config.sponsors.become?.active ? (
               <Link
                 href={config.sponsors.prospectus.url}
@@ -168,6 +171,23 @@ export default async function SponsorsPage() {
                 Contact Us{' '}
                 <ArrowRight className='h-5 w-5 ml-2 transition-transform group-hover:translate-x-1' />
               </a>
+            )}
+            {config.sponsors.guide?.active && (
+              <p>
+                {config.sponsors.guide.heroText}{' '}
+                <a
+                  href={config.sponsors.guide.url}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='group inline-flex items-center gap-1 font-semibold text-ink no-underline hover:text-brand-magenta'
+                >
+                  {config.sponsors.guide.heroLinkLead}{' '}
+                  <span className='underline'>
+                    {config.sponsors.guide.linkLabel}
+                  </span>
+                  <ArrowRight className='h-4 w-4 transition-transform group-hover:translate-x-1' />
+                </a>
+              </p>
             )}
           </div>
         </div>
