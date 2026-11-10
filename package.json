@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "next dev --turbopack",
     "start": "next dev --turbopack",
     "build": "node scripts/generate-sitemap.js && next build",
     "serve": "npx serve@latest out",

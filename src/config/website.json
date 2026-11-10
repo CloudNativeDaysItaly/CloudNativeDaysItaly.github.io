@@ -341,6 +341,16 @@
       "label": "Download Sponsorship Prospectus",
       "cover": "/prospectus/sponsorship_prospectus_cover.webp"
     },
+    "guide": {
+      "active": true,
+      "url": "/guides/proof-of-presence-sponsor-guide-2026.pdf",
+      "heroText": "Why sponsor?",
+      "heroLinkLead": "Read our",
+      "boxText": "Not sure yet?",
+      "boxLinkLead": "Start with our",
+      "boxLinkTail": "on why community events work",
+      "linkLabel": "free guide"
+    },
     "transparencyNote": {
       "text": "Curious how the 2026 edition went?",
       "label": "Read the transparency report",
