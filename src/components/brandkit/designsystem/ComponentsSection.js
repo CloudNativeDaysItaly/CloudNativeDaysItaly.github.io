@@ -22,8 +22,8 @@ import { DsBlock, DsSection, DsStage, DsToken } from './DsKit';
 const PANEL_ITEMS = ['Agenda', 'Speakers', 'Content hub', 'Brand & Media Kit'];
 
 const TIMELINE = [
-  { year: '2026', title: 'Bologna, second edition', text: '285 attendees and a bigger room.' },
-  { year: '2027', title: 'Bologna, third edition', text: `${formatAgendaDateRange(agendaConfig.days)}, ${config.hero.venue}.`, live: true },
+  { year: '2026', title: 'Bologna, sixth edition', text: '285 attendees and a bigger room.' },
+  { year: '2027', title: 'Bologna, seventh edition', text: `${formatAgendaDateRange(agendaConfig.days)}, ${config.hero.venue}.`, live: true },
 ];
 
 export default function ComponentsSection() {
