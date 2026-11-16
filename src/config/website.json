@@ -133,6 +133,12 @@
         "url": "https://x.com/CNDItaly",
         "alt": "Cloud Native Days Italy on X",
         "active": true
+      },
+      {
+        "iconName": "mastodon",
+        "url": "https://mastodon.social/@cloud_native_days_italy",
+        "alt": "Cloud Native Days Italy on Mastodon",
+        "active": true
       }
     ],
     "license": {

@@ -5,6 +5,7 @@ import {
   FaThreads,
   FaBluesky,
   FaLinkedinIn,
+  FaMastodon,
 } from 'react-icons/fa6';
 import { BiLogoTelegram } from 'react-icons/bi';
 import config from '@/config/website.json';
@@ -26,6 +27,7 @@ const ICONS = {
   telegram: BiLogoTelegram,
   threads: FaThreads,
   bluesky: FaBluesky,
+  mastodon: FaMastodon,
 };
 
 export default function SocialIcons({
